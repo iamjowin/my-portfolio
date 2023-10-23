@@ -21,7 +21,7 @@
         <div class="flex">
             <div class="w-1/2 max-w-sm p-6 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 mt-4">
                 <a href="#">
-                    <h5 class="mb-2 font-bold tracking-tight text-slate-700 dark:text-white">PROLOOK SPORTS</h5>
+                    <h5 class="mb-2 font-bold tracking-tight text-slate-700 dark:text-white">PROLOOK SPORTSsssss</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Customize baseball uniforms for your team. Design custom baseball jerseys, pants and apparel. Using our Prolook Sports Customizer.</p>
                 <a href="https://customizer.prolook.com/index" class="inline-flex items-center px-3 py-2 text-sm text-center text-white bg-[#4f93ff] hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
