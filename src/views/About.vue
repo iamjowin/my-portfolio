@@ -4,12 +4,14 @@
         <h1 class="font-bold mb-4 text-slate-400">Hi. I'm Jowin, nice to meet you, Please take a look around.</h1>
         <p class="text-slate-700">Currently, I work at PROLOOK SPORTS. I've been there for just over 4 years. My responsibilities include implementing and maintaining in all existing projects. I love non-strict environment because I can think clearly and focus on what I'm doing.</p>
         <h1 class="font-bold mb-4 text-slate-400 mt-4">More about me</h1>
-        <Button 
-            @click="downloadResume('/jmc-resume.pdf')" 
-            :text="`Get My Resume`" 
-            :processing-text="`Downloading...`" 
-            :processing="downloading"
-        />
+        <div>
+            <Button 
+                @click="downloadResume('/jmc-resume.pdf')" 
+                :text="`Get My Resume`" 
+                :processing-text="`Downloading...`" 
+                :processing="downloading"
+            />
+        </div>
     </div>
 </template>
 <script setup>

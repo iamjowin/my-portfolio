@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .right-column-div {
+        margin-top: -50%;
+        text-align: center;
+    }
+
+    .technologies-list {
+        text-align: -webkit-center;
+    }
+}

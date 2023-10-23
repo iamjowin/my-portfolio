@@ -68,7 +68,7 @@ onMounted(() => {
             </ul>
         </div>
         <Transition>
-            <RouterView class="lg:w-1/2 h-full p-4 flex flex-col justify-center scrollable-content"/>
+            <RouterView class="lg:w-1/2 h-full p-4 flex flex-col justify-center right-column-div"/>
         </Transition>
     </div>
 </template>
@@ -110,7 +110,7 @@ onMounted(() => {
         opacity: 0;
     }
 
-    .scrollable-content {
+    .right-column-div {
         max-height: auto; 
         overflow-y: auto; 
     }
