@@ -35,7 +35,7 @@ onMounted(() => {
     </div>
     <div class="lg:flex h-screen main-content">
         <div class="lg:w-1/2 h-full p-4 flex flex-col justify-center items-center">
-            <img src="./assets/my-profile.png" class="rounded-full" width="200" height="200" alt="profile">
+            <img src="./assets/my-picture.png" class="rounded-full" width="200" height="200" alt="profile">
             <h1 class="text-2xl font-bold text-slate-700 mt-1">JMC</h1>
             <nav class="mt-4">
                 <RouterLink class="mr-3 text-slate-400 text-sm font-bold" to="/" exact-active-class="nav-link">Home</RouterLink>

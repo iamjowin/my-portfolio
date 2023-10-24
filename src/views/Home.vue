@@ -13,7 +13,7 @@
                 <img src="../assets/typescript-icon.png" alt="Image 2" class="" height="50" width="50">
             </li>
             <li class="w-1/3 md:w-1/6 p-2">
-                <img src="../assets/vuejs-icon.png" alt="Image 3" class="" height="50" width="50">
+                <img src="../assets/vue-icon.png" alt="Image 3" class="" height="50" width="50">
             </li>
             <li class="w-1/3 md:w-1/6 p-2">
                 <img src="../assets/html-icon.png" alt="Image 4" class="" height="50" width="50">
