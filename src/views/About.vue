@@ -27,7 +27,7 @@ const downloadResume = url => {
         const link = document.createElement('a');
 
         link.href = url;
-        link.download = 'jowin_cueto.pdf';
+        link.download = 'jowin_cueto_resume.pdf';
         link.click();
 
         downloading.value = false;
