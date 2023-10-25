@@ -3,7 +3,8 @@
         <h1 class="text-2xl font-bold mb-4 text-slate-700">WORK</h1>
         <h1 class="font-bold mb-4 text-slate-400">Check out some of my work</h1>
         <div class="flex">
-            <div class=" max-w-sm p-6 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm p-6 bg-white border">
+                <div class="text-right text-xs text-[#4f93ff] font-bold work-date">2018 - 2019</div>
                 <a href="#">
                     <h5 class="mb-2 font-bold tracking-tight text-slate-700 dark:text-white">CODEERIC IT SOLUTION</h5>
                 </a>
@@ -18,7 +19,8 @@
         </div>
         
         <div class="flex">
-            <div class=" max-w-sm p-6 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 mt-4">
+            <div class=" max-w-sm p-6 bg-white border mt-4">
+                <div class="text-right text-xs text-[#4f93ff] font-bold work-date">2019 - current</div>
                 <a href="#">
                     <h5 class="mb-2 font-bold tracking-tight text-slate-700 dark:text-white">PROLOOK SPORTS</h5>
                 </a>
