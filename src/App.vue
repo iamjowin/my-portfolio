@@ -40,7 +40,7 @@ onMounted(() => {
                 <h1 class="text-3xl font-bold text-slate-700 mt-1">JOWIN CUETO</h1>
             </div>
             <h1 class="text-xl font-bold text-slate-400 mt-1">Frond-End Developer</h1>
-            <p class="w-full lg:w-1/2 mt-4">Optimizing the user experience using HTML, JAVASCRIPT and CSS to bring concepts to life</p>
+            <p class="w-full lg:w-1/2 mt-4 text-slate-600">Optimizing the user experience using HTML, JAVASCRIPT and CSS to bring concepts to life</p>
             <nav class="mt-10">
                 <RouterLink id="route1" class="text-slate-400 text-xs font-bold flex flex-col" to="/">HOME</RouterLink>
                 <RouterLink id="route2" class="text-slate-400 text-xs font-bold flex flex-col mt-4" to="/about">ABOUT</RouterLink>
