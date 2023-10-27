@@ -17,6 +17,7 @@
         background: #d8d9db;
         left: auto;
         width: -webkit-fill-available;
+        bottom: 0;
     }
 
     .social-footer-ul {
