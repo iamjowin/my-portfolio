@@ -4,6 +4,10 @@
         text-align: center;
     }
 
+    .main-column-div {
+        height: 80vh;
+    }
+
     .technologies-list {
         text-align: -webkit-center;
     }
