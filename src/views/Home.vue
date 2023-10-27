@@ -118,6 +118,9 @@ const downloadResume = url => {
 }
 
 onMounted(() => {
+    const route1 = document.querySelector('#route1');
+    route1.classList.add('nav-link')
+    
     const divs = document.querySelectorAll(".scroll-div");
 
     divs.forEach((div) => {
