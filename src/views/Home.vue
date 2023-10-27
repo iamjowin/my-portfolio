@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <div id="div4" class="mt-20 scroll-div">
+        <div id="div4" class="mt-20 scroll-div contact-div">
             <h1 class="text-xl font-bold mb-4 text-slate-700">CONTACT</h1>
             <h1 class="font-bold mb-4 text-slate-400">Shoot me an email!</h1>
             <form  method="POST" action="https://getform.io/f/1bcd007d-e944-4a72-b433-1172397bffb9">
