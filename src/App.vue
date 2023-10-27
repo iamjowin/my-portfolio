@@ -33,18 +33,30 @@ onMounted(() => {
             <div class="w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-600"></div>
         </label>
     </div>
-    <div class="lg:flex h-screen main-content">
-        <div class="lg:w-1/2 h-full p-4 flex flex-col justify-center items-center">
-            <img src="./assets/my-picture.png" class="rounded-full" width="200" height="200" alt="profile">
-            <h1 class="text-2xl font-bold text-slate-700 mt-1">JMC</h1>
-            <nav class="mt-4">
-                <RouterLink class="mr-3 text-slate-400 text-sm font-bold" to="/" exact-active-class="nav-link">Home</RouterLink>
-                <RouterLink class="mr-3 text-slate-400 text-sm font-bold" to="/about" exact-active-class="nav-link">About</RouterLink>
-                <RouterLink class="mr-3 text-slate-400 text-sm font-bold" to="/work" exact-active-class="nav-link">Work</RouterLink>
-                <RouterLink class="text-slate-400 text-sm font-bold" to="/contact" exact-active-class="nav-link">Contact</RouterLink>
+    <div class="lg:flex h-screen">
+        <div class="lg:w-1/2 h-full flex flex-col p-10">
+            <div class="flex flex-row items-center">
+                <!-- <img src="./assets/my-profile-old.png" class="rounded-full" width="50" height="50" alt="profile"> -->
+                <h1 class="text-3xl font-bold text-slate-700 mt-1">JOWIN CUETO</h1>
+            </div>
+            <h1 class="text-xl font-bold text-slate-400 mt-1">Frond-End Developer</h1>
+            <p class="w-full lg:w-1/2 mt-4">Optimizing the user experience using HTML, JAVASCRIPT and CSS to bring concepts to life</p>
+            <nav class="mt-10">
+                <RouterLink id="route1" class="text-slate-400 text-xs font-bold flex flex-col" to="/">HOME</RouterLink>
+                <RouterLink id="route2" class="text-slate-400 text-xs font-bold flex flex-col mt-4" to="/about">ABOUT</RouterLink>
+                <RouterLink id="route3" class="text-slate-400 text-xs font-bold flex flex-col mt-4" to="/work">WORK</RouterLink>
+                <RouterLink id="route4" class="text-slate-400 text-xs font-bold flex flex-col mt-4" to="/contact">CONTACT</RouterLink>
             </nav>
-
-            <ul class="list-none p-0 mt-6 flex flex-row">
+        </div>
+        <Transition>
+            <RouterView class="lg:w-1/2 h-full flex flex-col right-column-div p-10"/>
+        </Transition>
+    </div>
+    <div>
+        
+    </div>
+    <div class="fixed bottom-4 left-10 social-footer">
+            <ul class="list-none p-0 mt-6 flex flex-row social-footer-ul">
                 <li class="mr-3">
                     <a href="https://www.facebook.com/jowin.cueto.12/">
                         <i class="fab fa-facebook text-[#4f93ff] hover:text-blue-600 text-2xl"></i>
@@ -67,10 +79,6 @@ onMounted(() => {
                 </li>
             </ul>
         </div>
-        <Transition>
-            <RouterView class="lg:w-1/2 h-full p-4 flex flex-col justify-center right-column-div"/>
-        </Transition>
-    </div>
 </template>
 <style>
     .nav-link {
