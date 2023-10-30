@@ -1,42 +1,42 @@
-export function handleIntersect(entries, observer) {
+export function handleIntersect(entries, observer, data) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('add-opacity')
 
-            switch (entry.target.id) {
-                case 'div1':
-                    const route1 = document.querySelector('#route1');
-                    route1.classList.add('nav-link')
-                    break;
-                case 'div2':
-                    const route2 = document.querySelector('#route2');
-                    route2.classList.add('nav-link')
-                    break;
-                case 'div3':
-                    const route3 = document.querySelector('#route3');
-                    route3.classList.add('nav-link')
-                    break;
-                case 'div4':
-                    const route4 = document.querySelector('#route4');
-                    route4.classList.add('nav-link')
-                    break;
-                default:
-                    break;
+            const targetId = entry.target.id;
+
+            const link1 = document.querySelector('#link1');
+            const link2 = document.querySelector('#link2');
+            const link3 = document.querySelector('#link3');
+
+            if (targetId === 'section1') {
+                link1.classList.add('active-link')
+                link2.classList.remove('active-link')
+                link3.classList.remove('active-link')
+
+                data.isShowNavSpan1 = true;
+                data.isShowNavSpan2 = false;
+                data.isShowNavSpan3 = false;
             }
-        } else {
-            resetLink();
+
+            if (targetId === 'section2') {
+                link2.classList.add('active-link')
+                link1.classList.remove('active-link')
+                link3.classList.remove('active-link')
+
+                data.isShowNavSpan1 = false;
+                data.isShowNavSpan2 = true;
+                data.isShowNavSpan3 = false;
+            }
+
+            if (targetId === 'section3') {
+                link3.classList.add('active-link')
+                link1.classList.remove('active-link')
+                link2.classList.remove('active-link')
+
+                data.isShowNavSpan1 = false;
+                data.isShowNavSpan2 = false;
+                data.isShowNavSpan3 = true;
+            }
         }
     });
-}
-
-function resetLink() {
-    const route1 = document.querySelector('#route1');
-    const route2 = document.querySelector('#route2');
-    const route3 = document.querySelector('#route3');
-    const route4 = document.querySelector('#route4');
-
-    route1.classList.remove('nav-link')
-    route2.classList.remove('nav-link')
-    route3.classList.remove('nav-link')
-    route4.classList.remove('nav-link')
 }
