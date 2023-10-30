@@ -227,7 +227,7 @@ onMounted(() => {
             <h1 class="text-4xl font-bold text-white mt-1">JOWIN CUETO</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer</h1>
-                <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">Optimizing the user experience to bring concepts to life.</p>
+                <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">I optimizing the website user experience and bring concepts to life.</p>
             </div>
             <SocialNav />
             <!-- <div class="mt-8">
