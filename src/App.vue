@@ -217,7 +217,7 @@ onMounted(() => {
 
     <!-- Loading container -->
     <div class="loading-container">
-        <img src="./assets/bricks-loading-1.svg">
+        <img src="./assets/bricks-loading-2.svg">
     </div>
 
     <!-- Index container -->
