@@ -217,7 +217,7 @@ onMounted(() => {
 
     <!-- Loading container -->
     <div class="loading-container">
-        <img src="./assets/bean-eater.svg">
+        <img src="./assets/bricks-loading-1.svg">
     </div>
 
     <!-- Index container -->
@@ -294,7 +294,7 @@ onMounted(() => {
                         <a href="https://wordtorque.graxia.dev" target="_blank">
                             <p class="text-slate-200">Wordtorque
                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <span class="text-slate-400 float-right text-xs">JUNE 2023 - AUGUST 2023</span>
+                                <span class="text-slate-400 float-right text-xs">2023</span>
                             </p>
                         </a>
                         <p class="text-slate-600">Part Time - Front-End Developer</p>
@@ -329,7 +329,7 @@ onMounted(() => {
                         <a href="#" disabled class="cursor-not-allowed">
                             <p class="text-slate-500">La Verdad Christian College 
                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <span class="text-slate-400 float-right text-xs">MARCH 2018 - JUNE 2018</span>
+                                <span class="text-slate-400 float-right text-xs">2018</span>
                             </p>
                         </a>
                         <p class="text-slate-600">Internship Trainee - Front-End Developer</p>
@@ -434,10 +434,9 @@ onMounted(() => {
                         </a>
                     </div>
                 </section>
-                <section class="mt-20 max-sm:mb-10 md:mb-10">
+                <section class="mt-20 max-sm:mb-10 md:mb-10 lg:mb-0">
                     <div class="text-slate-500 text-xs">
-                        <p>Coded in 
-                            <a class="text-slate-200" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code.</a> Built with <a class="text-slate-200" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200" href="https://www.netlify.com/" target="_blank">Netlify.</a></p>
+                        <p>Coded in<a class="text-slate-200" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200" href="https://fonts.google.com/?query=lato" target="_blank">Lato</a> font</p>
                     </div>
                 </section>
             </div>
@@ -451,7 +450,7 @@ onMounted(() => {
         left: 0;
         width: 100%;
         height: 100%;
-        background: #fff;
+        background: #0f172a;
         display: flex;
         justify-content: center;
         align-items: center;
