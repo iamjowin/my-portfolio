@@ -56,7 +56,7 @@ onMounted(() => {
             </a>
             <h1 class="text-4xl font-bold text-white mt-1">All Projects</h1>
             <div class="flex flex-wrap pt-12">
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="https://customizer.prolook.com/index" target="_blank">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -72,7 +72,7 @@ onMounted(() => {
                         </div>
                     </a>
                 </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="#">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -87,7 +87,7 @@ onMounted(() => {
                         </div>
                     </a>
                 </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="https://prolookteam.com/" target="_blank">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -103,7 +103,7 @@ onMounted(() => {
                         </div>
                     </a>
                 </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="#">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -119,7 +119,7 @@ onMounted(() => {
                         </div>
                     </a>
                 </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="https://customizer-core-prd.qstrike.net" target="_blank">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -135,7 +135,7 @@ onMounted(() => {
                         </div>
                     </a>
                 </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="https://www.pguniforms.com/" target="_blank">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -151,7 +151,7 @@ onMounted(() => {
                         </div>
                     </a>
                 </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="https://www.alliteamuniforms.com/" target="_blank">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -167,7 +167,7 @@ onMounted(() => {
                         </div>
                     </a>
                 </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="https://wordtorque.graxia.dev" target="_blank">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -181,7 +181,7 @@ onMounted(() => {
                         </div>
                     </a>
                 </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/3 mr-4 mt-4">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
                     <a href="https://jowin-portfolio.netlify.app/" target="_blank">
                         <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
                             <div class="ml-4">
@@ -224,10 +224,10 @@ onMounted(() => {
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:p-28">
-            <h1 class="text-4xl font-bold text-white mt-1">JOWIN CUETO</h1>
+            <h1 class="text-4xl font-extrabold text-white mt-1">JOWIN CUETO</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer</h1>
-                <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">I optimizing the website user experience and bring concepts to life.</p>
+                <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">I optimize website user experience and bring concepts to life.</p>
             </div>
             <SocialNav />
             <!-- <div class="mt-8">
@@ -254,7 +254,7 @@ onMounted(() => {
         </div>
 
         <!-- Right Column -->
-        <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-0 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:p-28 lg:max-h-auto lg:overflow-y-auto">
+        <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-0 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-0 lg:p-28 lg:max-h-auto lg:overflow-y-auto">
             <div>
                 <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-400 max-md:text-slate-400">ABOUT</h1>
                 <section id="section1" class="text-slate-400 text-md section">
@@ -275,7 +275,7 @@ onMounted(() => {
                             </p>
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs and implementing new features. Make sure the to implement reusable component and implement <a class="text-slate-200" href="#">pinia</a> for state management. Make sure the code is maintainable and readable.</p>
+                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs and implementing new features. Make sure the to implement reusable component and implement <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Make sure the code is maintainable and readable.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
@@ -436,7 +436,7 @@ onMounted(() => {
                 </section>
                 <section class="mt-20 max-sm:mb-10 md:mb-10 lg:mb-0">
                     <div class="text-slate-500 text-xs">
-                        <p>Coded in<a class="text-slate-200" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200" href="https://fonts.google.com/?query=lato" target="_blank">Lato</a> font</p>
+                        <p>Coded in<a class="text-slate-200" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font</p>
                     </div>
                 </section>
             </div>
