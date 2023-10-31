@@ -56,145 +56,195 @@ onMounted(() => {
             </a>
             <h1 class="text-4xl font-bold text-white mt-1">All Projects</h1>
             <div class="flex flex-wrap pt-12">
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="https://customizer.prolook.com/index" target="_blank">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2019</span>
-                                <p class="text-slate-200 text-sm">Prolook 2.5 Customizer</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="#">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2020</span>
-                                <p class="text-slate-200 text-sm">Marucci & Victus Customizer</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="https://prolookteam.com/" target="_blank">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2021</span>
-                                <p class="text-slate-200 text-sm">Dick's & Sporting Goods Customizer</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="#">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2022</span>
-                                <p class="text-slate-200 text-sm">Prolook 2.75 Customizer</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="https://customizer-core-prd.qstrike.net" target="_blank">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2023</span>
-                                <p class="text-slate-200 text-sm">Core Customizer</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="https://www.pguniforms.com/" target="_blank">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2023</span>
-                                <p class="text-slate-200 text-sm">Perfect Game Customizer</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="https://www.alliteamuniforms.com/" target="_blank">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2023</span>
-                                <p class="text-slate-200 text-sm">Alli Customizer</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="https://wordtorque.graxia.dev" target="_blank">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2023</span>
-                                <p class="text-slate-200 text-sm">Wordtorque</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 mr-4 mt-4">
-                    <a href="https://jowin-portfolio.netlify.app/" target="_blank">
-                        <div class="bg-[#172547] p-4 shadow rounded-md flex hover:scale-95">
-                            <div class="ml-4">
-                                <span class="text-slate-200">2023</span>
-                                <p class="text-slate-200 text-sm">My Portfolio</p>
-                                <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                                    <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Tailwind</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
+                <div class="w-full">
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full">
+                            <thead>
+                                <tr>
+                                    <th class="text-left font-bold text-sm text-slate-200 tracking-wider">Year</th>
+                                    <th class="max-sm:px-0 px-6 py-3 text-left font-bold text-sm text-slate-200 tracking-wider">Project</th>
+                                    <th class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-3 text-left font-bold text-sm text-slate-200 tracking-wider">Made at</th>
+                                    <th class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-3 text-left font-bold text-sm text-slate-200 tracking-wider">Built with</th>
+                                    <th class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-3 text-left font-bold text-sm text-slate-200 tracking-wider">Link</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border border-slate-800 border-l-0 border-r-0">
+                                    <td class="text-slate-500">2019</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Prolook 2.5 Customizer</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
+                                        <a href="https://customizer.prolook.com/index" target="_blank">
+                                            Prolook 2.5 Customizer 
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
+                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        </ul>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
+                                        <a href="https://customizer.prolook.com/index" target="_blank">customizer.prolook.com</a>
+                                    </td>
+                                </tr>
+                                <tr class="border border-slate-800 border-l-0 border-r-0">
+                                    <td class="text-slate-500">2020</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Marucci & Victus Customizer</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
+                                        <a href="#" target="_blank">
+                                            Marucci & Victus Customizer
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
+                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Jquery</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        </ul>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
+                                        <a href="#">none</a>
+                                    </td>
+                                </tr>
+                                <tr class="border border-slate-800 border-l-0 border-r-0">
+                                    <td class="text-slate-500">2021</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Dick's & Sporting Goods</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
+                                        <a href="https://prolookteam.com/" target="_blank">
+                                            Dick's & Sporting Goods
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
+                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        </ul>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
+                                        <a href="https://prolookteam.com/" target="_blank">prolookteam.com</a>
+                                    </td>
+                                </tr>
+                                <tr class="border border-slate-800 border-l-0 border-r-0">
+                                    <td class="text-slate-500">2022</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Prolook 2.75 Customizer</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
+                                        <a href="#" target="_blank">
+                                            Prolook 2.75 Customizer
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
+                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        </ul>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
+                                        <a href="#" target="_blank">none</a>
+                                    </td>
+                                </tr>
+                                <tr class="border border-slate-800 border-l-0 border-r-0">
+                                    <td class="text-slate-500">2023</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Core Customizer</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
+                                        <a href="https://customizer-core-prd.qstrike.net" target="_blank">
+                                            Core Customizer
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
+                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        </ul>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
+                                        <a href="https://customizer-core-prd.qstrike.net" target="_blank">customizer-core-prd.qstrike.net</a>
+                                    </td>
+                                </tr>
+                                <tr class="border border-slate-800 border-l-0 border-r-0">
+                                    <td class="text-slate-500">2023</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Perfect Game Customizer</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
+                                        <a href="https://www.pguniforms.com/" target="_blank">
+                                            Perfect Game Customizer
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
+                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        </ul>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
+                                        <a href="https://www.pguniforms.com/" target="_blank">pguniforms.com</a>
+                                    </td>
+                                </tr>
+                                <tr class="border border-slate-800 border-l-0 border-r-0">
+                                    <td class="text-slate-500">2023</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Alli Customizer</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
+                                        <a href="https://www.alliteamuniforms.com/" target="_blank">
+                                            Alli Customizer
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
+                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        </ul>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
+                                        <a href="https://www.alliteamuniforms.com/" target="_blank">alliteamuniforms.com</a>
+                                    </td>
+                                </tr>
+                                <tr class="border border-slate-800 border-l-0 border-r-0">
+                                    <td class="text-slate-500">2023</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Wordtorque</td>
+                                    <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
+                                        <a href="https://wordtorque.graxia.dev" target="_blank">
+                                            Wordtorque
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Wordtorque</td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
+                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
+                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        </ul>
+                                    </td>
+                                    <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
+                                        <a href="https://wordtorque.graxia.dev" target="_blank">wordtorque.graxia.dev</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
