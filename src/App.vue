@@ -274,7 +274,7 @@ onMounted(() => {
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:p-28">
-            <h1 class="text-4xl font-extrabold text-white mt-1">JOWIN CUETO</h1>
+            <h1 class="text-5xl font-extrabold text-white mt-1 my-name">JMC</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer</h1>
                 <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">I optimize website user experience and bring concepts to life.</p>
@@ -289,15 +289,15 @@ onMounted(() => {
             </div> -->
             <nav class="mt-12 max-md:hidden md:hidden lg:block" id="menu">
                 <a href="#section1" id="link1" class="text-slate-500 text-xs font-bold flex flex-wrap nav-link">
-                    <span v-if="portfolioStore.isShowNavSpan1" class="mr-4">------</span>
+                    <div id="link-line-1" class="line mt-2 mr-4"></div>
                     ABOUT
                 </a>
                 <a href="#section2" id="link2" class="text-slate-500 text-xs font-bold flex flex-wrap mt-4 nav-link">
-                    <span v-if="portfolioStore.isShowNavSpan2" class="mr-4">------</span>
+                    <div id="link-line-2" class="line mt-2 mr-4"></div>
                     EXPERIENCE
                 </a>
                 <a href="#section3" id="link3" class="text-slate-500 text-xs font-bold flex flex-wrap mt-4 nav-link">
-                    <span v-if="portfolioStore.isShowNavSpan3" class="mr-4">------</span>
+                    <div id="link-line-3" class="line mt-2 mr-4"></div>
                     PROJECTS
                 </a>
             </nav>
@@ -545,5 +545,17 @@ onMounted(() => {
         position: absolute;
         top: 10px;
         right: 20px;
+    }
+
+    .line {
+        width: 6%;
+        height: 1.5px;
+        background-color: #4d5b7c;
+        transition: width 0.5s;
+    }
+
+    .line-width {
+        width: 15%;
+        background-color: #e2e4e9;
     }
 </style>

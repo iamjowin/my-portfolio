@@ -8,14 +8,18 @@ export function handleIntersect(entries, observer, data) {
             const link2 = document.querySelector('#link2');
             const link3 = document.querySelector('#link3');
 
+            const line1 = document.querySelector('#link-line-1');
+            const line2 = document.querySelector('#link-line-2');
+            const line3 = document.querySelector('#link-line-3');
+
             if (targetId === 'section1') {
                 link1.classList.add('active-link')
                 link2.classList.remove('active-link')
                 link3.classList.remove('active-link')
 
-                data.isShowNavSpan1 = true;
-                data.isShowNavSpan2 = false;
-                data.isShowNavSpan3 = false;
+                line1.classList.add('line-width');
+                line2.classList.remove('line-width')
+                line3.classList.remove('line-width')
             }
 
             if (targetId === 'section2') {
@@ -23,9 +27,9 @@ export function handleIntersect(entries, observer, data) {
                 link1.classList.remove('active-link')
                 link3.classList.remove('active-link')
 
-                data.isShowNavSpan1 = false;
-                data.isShowNavSpan2 = true;
-                data.isShowNavSpan3 = false;
+                line1.classList.remove('line-width');
+                line2.classList.add('line-width')
+                line3.classList.remove('line-width')
             }
 
             if (targetId === 'section3') {
@@ -33,9 +37,9 @@ export function handleIntersect(entries, observer, data) {
                 link1.classList.remove('active-link')
                 link2.classList.remove('active-link')
 
-                data.isShowNavSpan1 = false;
-                data.isShowNavSpan2 = false;
-                data.isShowNavSpan3 = true;
+                line1.classList.remove('line-width');
+                line2.classList.remove('line-width')
+                line3.classList.add('line-width')
             }
         }
     });
