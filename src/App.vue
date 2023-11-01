@@ -282,7 +282,7 @@ onMounted(() => {
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:p-28">
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name">JMC</h1>
             <div>
-                <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer</h1>
+                <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer at Prolook Sports</h1>
                 <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">I optimize website user experience and bring concepts to life.</p>
             </div>
             <SocialNav />
