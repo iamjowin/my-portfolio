@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:fixed bottom-4 left-28 pb-20 max-sm:pb-0 md:pb-0 social-footer">
+    <div class="lg:fixed bottom-4 left-28 lg:pb-20 max-sm:pb-0 md:pb-0 social-footer">
         <ul class="list-none p-0 mt-6 flex flex-row social-footer-ul">
             <li class="mr-3">
                 <a href="https://www.facebook.com/jowin.cueto.12/" target="_blank">
