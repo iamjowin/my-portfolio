@@ -18,11 +18,17 @@ const hideContact = () => {
 }
 
 const showProjects = () => {
-    portfolioStore.showProjectPage = true;
+    const projectContainerEl = document.querySelector('.projects-container');
+
+    projectContainerEl.classList.remove('hidden');
+    projectContainerEl.classList.toggle('fade-in-left-animation');
 }
 
 const hideProjects = () => {
-    portfolioStore.showProjectPage = false;
+    const projectContainerEl = document.querySelector('.projects-container');
+    
+    projectContainerEl.classList.add('hidden');
+    projectContainerEl.classList.remove('fade-in-left-animation');
 }
 
 onMounted(() => {
@@ -45,7 +51,7 @@ onMounted(() => {
 </script>
 <template>
     <!-- Projects container -->
-    <div v-if="portfolioStore.showProjectPage" class="projects-container bg-[#0f172a]">
+    <div class="projects-container bg-[#0f172a] hidden">
         <button @click="hideProjects" class="contact-close-btn">
             <i class="fa fa-times text-[#5be3d4]" aria-hidden="true"></i>
         </button>
@@ -524,7 +530,8 @@ onMounted(() => {
         height: 100%;
         z-index: 9999;
         max-height: auto; 
-        overflow-y: auto; 
+        overflow-y: auto;
+        transition: opacity 0.5s ease; /* Smooth opacity transition */
     }
 
     .loading-text {
@@ -557,5 +564,11 @@ onMounted(() => {
     .line-width {
         width: 15%;
         background-color: #e2e4e9;
+    }
+
+    .fade-in-left-animation {
+        animation-duration: 0.5s;
+        animation-fill-mode: both;
+        animation-name: fadeInLeft;
     }
 </style>
