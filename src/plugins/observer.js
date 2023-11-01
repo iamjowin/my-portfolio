@@ -38,40 +38,42 @@ export function handleIntersect(entries, observer, data) {
                 line2.classList.remove('line-width')
                 line3.classList.remove('line-width')
                 
-                aboutHeading.classList.add(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
-
-                expHeading.classList.add('mt-28')
-
-                expHeading.classList.remove(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
-
-                projectHeading.classList.remove(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
+                if (window.innerWidth <= 768) {
+                    aboutHeading.classList.add(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+    
+                    expHeading.classList.add('mt-28')
+    
+                    expHeading.classList.remove(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+    
+                    projectHeading.classList.remove(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+                }
             }
 
             if (targetId === 'section2') {
@@ -83,41 +85,43 @@ export function handleIntersect(entries, observer, data) {
                 line2.classList.add('line-width')
                 line3.classList.remove('line-width')
 
-                expHeading.classList.add(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
-
-                expHeading.classList.remove('mt-28');
-                projectHeading.classList.add('mt-28')
-
-                aboutHeading.classList.remove(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
-
-                projectHeading.classList.remove(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
+                if (window.innerWidth <= 768) {
+                    expHeading.classList.add(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+    
+                    expHeading.classList.remove('mt-28');
+                    projectHeading.classList.add('mt-28')
+    
+                    aboutHeading.classList.remove(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+    
+                    projectHeading.classList.remove(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+                }
             }
 
             if (targetId === 'section3') {
@@ -129,41 +133,43 @@ export function handleIntersect(entries, observer, data) {
                 line2.classList.remove('line-width')
                 line3.classList.add('line-width')
 
-                projectHeading.classList.add(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
-
-                projectHeading.classList.remove('mt-28')
-                expHeading.classList.add('mt-28')
-
-                aboutHeading.classList.remove(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
-
-                expHeading.classList.remove(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
+                if (window.innerWidth <= 768) {
+                    projectHeading.classList.add(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+    
+                    projectHeading.classList.remove('mt-28')
+                    expHeading.classList.add('mt-28')
+    
+                    aboutHeading.classList.remove(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+    
+                    expHeading.classList.remove(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+                }
             }
         }
     });

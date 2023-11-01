@@ -66,11 +66,7 @@ onMounted(() => {
             <XMarkIcon class="h-8 w-7 text-[#5be3d4] mt-1 mr-1" />
         </button>
         <div class="max-sm:p-10 md:p-10 lg:p-20 lg:pl-28">
-            <a class="text-[#5be3d4] flex flex-wrap" href="#" @click.prevent="hideProjects">
-                <ArrowLeftIcon class="h-4 w-5 text-[#5be3d4] mt-1 mr-1" />
-                Jowin Cueto
-            </a>
-            <h1 class="text-5xl font-bold text-white mt-1">All Projects</h1>
+            <h1 class="text-5xl font-bold text-white mt-1 max-sm:text-3xl">All Projects</h1>
             <div class="flex flex-wrap pt-12">
                 <div class="w-full">
                     <div class="overflow-x-auto">
@@ -272,24 +268,20 @@ onMounted(() => {
             <XMarkIcon class="h-8 w-7 text-[#5be3d4] mt-1 mr-1" />
         </button>
         <div class="max-sm:p-10 md:p-10 lg:p-20 lg:pl-28">
-            <a class="text-[#5be3d4] flex flex-wrap" href="#" @click.prevent="hideContact">
-                <ArrowLeftIcon class="h-4 w-5 text-[#5be3d4] mt-1 mr-1" />
-                Jowin Cueto
-            </a>
-            <h1 class="text-5xl font-bold text-white mt-1 mb-5">Contact</h1> 
-            <form class="mt-10">
+            <h1 class="text-5xl font-bold text-white mt-1 mb-5 max-sm:text-3xl">Contact</h1> 
+            <form class="mt-10" action="https://getform.io/f/2b950655-3eb4-4650-8b2b-0b74f9dd3d97" method="POST">
                 <div class="grid md:grid-cols-2 md:gap-6">
                     <div class="relative z-0 w-full mb-6 group">
-                        <input type="text" name="floating_name" id="floating_name" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
+                        <input type="text" name="name" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
                         <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
                     </div>
                     <div class="relative z-0 w-full mb-6 group">
-                        <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
+                        <input type="email" name="email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
                         <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
                     </div>
                 </div>
                 <div class="relative z-0 w-full mb-6 group">
-                    <textarea type="text" name="floating_textarea" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
+                    <textarea type="text" name="message" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
                     <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
                 </div>
                 
