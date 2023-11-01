@@ -342,7 +342,8 @@ onMounted(() => {
         <!-- Right Column -->
         <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-0 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-0 lg:p-28 lg:max-h-auto lg:overflow-y-auto">
             <div>
-                <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400">ABOUT</h1>
+                <section id="section0" class="section"></section>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400 about-heading">ABOUT</h1>
                 <section id="section1" class="text-slate-400 text-md section">
                     <div>
                         <p>Back in 2014 - 2018, when I was still studying, I developed an interest in web designing. I create mockups and convert them into HTML and CSS. I even gave myself the title of a front-end designer. However, fast forward, when I started working, my knowledge in front-end development expanded. I realized that it's not just about creating mockups and converting them into HTML and CSS. Front-end development also involves interactions with data. For example, you may need to fetch data to dynamically display it on the front-end side of the system.</p>
@@ -351,7 +352,7 @@ onMounted(() => {
                     </div>
                 </section>
 
-                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400">EXPERIENCE</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400 exp-heading">EXPERIENCE</h1>
                 <section id="section2" class="section">
                     <div>
                         <a href="https://www.prolook.com/" target="_blank">
@@ -434,7 +435,7 @@ onMounted(() => {
                     </div>
                 </section>
 
-                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400">PROJECTS</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400 project-heading">PROJECTS</h1>
                 <section id="section3" class="mt-6 section">
                     <div class="flex">
                         <div class="max-sm:hidden">
