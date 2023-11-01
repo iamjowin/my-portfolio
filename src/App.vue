@@ -5,17 +5,24 @@ import { usePorfolioStore } from './stores/data'
 import { handleIntersect } from './plugins/observer'
 import { handleClickScroll } from './plugins/scroll'
 import { handleHideLoading } from './plugins/loading'
-import { ArrowUpRightIcon, ArrowRightIcon, ArrowLeftIcon, XMarkIcon } from '@heroicons/vue/24/solid'
+import { ArrowUpRightIcon, ArrowRightIcon, ArrowLeftIcon, XMarkIcon, PaperAirplaneIcon } from '@heroicons/vue/24/solid'
 import { onMounted } from 'vue'
 
 const portfolioStore = usePorfolioStore();
 
 const showContact = () => {
-    portfolioStore.showContactPage = true;
+    const contactContainerEl = document.querySelector('.contact-container');
+
+    contactContainerEl.classList.remove('hidden');
+    contactContainerEl.classList.toggle('fade-in-left-animation');
+    contactContainerEl.classList.remove('fade-out-left-animation');
 }
 
 const hideContact = () => {
-    portfolioStore.showContactPage = false;
+    const contactContainerEl = document.querySelector('.contact-container');
+
+    contactContainerEl.classList.remove('fade-in-left-animation');
+    contactContainerEl.classList.toggle('fade-out-left-animation');
 }
 
 const showProjects = () => {
@@ -23,13 +30,15 @@ const showProjects = () => {
 
     projectContainerEl.classList.remove('hidden');
     projectContainerEl.classList.toggle('fade-in-left-animation');
+    projectContainerEl.classList.remove('fade-out-left-animation');
+
 }
 
 const hideProjects = () => {
     const projectContainerEl = document.querySelector('.projects-container');
-    
-    projectContainerEl.classList.add('hidden');
+
     projectContainerEl.classList.remove('fade-in-left-animation');
+    projectContainerEl.classList.toggle('fade-out-left-animation');
 }
 
 onMounted(() => {
@@ -61,7 +70,7 @@ onMounted(() => {
                 <ArrowLeftIcon class="h-4 w-5 text-[#5be3d4] mt-1 mr-1" />
                 Jowin Cueto
             </a>
-            <h1 class="text-4xl font-bold text-white mt-1">All Projects</h1>
+            <h1 class="text-5xl font-bold text-white mt-1">All Projects</h1>
             <div class="flex flex-wrap pt-12">
                 <div class="w-full">
                     <div class="overflow-x-auto">
@@ -258,19 +267,39 @@ onMounted(() => {
     </div>
 
     <!-- Contact container -->
-    <!-- <div v-if="portfolioStore.showContactPage" class="contact-container bg-[#0f172a]">
+    <div class="contact-container bg-[#0f172a] hidden">
         <button @click="hideContact" class="contact-close-btn">
-            <i class="fa fa-times text-[#5be3d4]" aria-hidden="true"></i>
+            <XMarkIcon class="h-8 w-7 text-[#5be3d4] mt-1 mr-1" />
         </button>
-        <div class="p-20 pl-28">
-            <a class="text-[#5be3d4]" href="#" @click.prevent="hideContact">
-                <i class="fa fa-arrow-left mr-2" aria-hidden="true"></i>
+        <div class="max-sm:p-10 md:p-10 lg:p-20 lg:pl-28">
+            <a class="text-[#5be3d4] flex flex-wrap" href="#" @click.prevent="hideContact">
+                <ArrowLeftIcon class="h-4 w-5 text-[#5be3d4] mt-1 mr-1" />
                 Jowin Cueto
             </a>
-            <h1 class="text-4xl font-bold text-white mt-1 mb-5">Contact</h1>
-            <span class="text-slate-200">Shoot me an email!</span>
+            <h1 class="text-5xl font-bold text-white mt-1 mb-5">Contact</h1> 
+            <form class="mt-10">
+                <div class="grid md:grid-cols-2 md:gap-6">
+                    <div class="relative z-0 w-full mb-6 group">
+                        <input type="text" name="floating_name" id="floating_name" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
+                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+                    </div>
+                    <div class="relative z-0 w-full mb-6 group">
+                        <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
+                        <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
+                    </div>
+                </div>
+                <div class="relative z-0 w-full mb-6 group">
+                    <textarea type="text" name="floating_textarea" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
+                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                </div>
+                
+                <button type="submit" class="flex flex-wrap mt-10 text-[#5be3d4] bg-black hover:bg-blue-800 font-medium text-sm px-5 py-2.5 text-justify">Shoot
+                    <PaperAirplaneIcon class="h-4 w-5 text-[#5be3d4] mt-0.5 ml-1" />
+                </button>
+            </form>
+
         </div>
-    </div> -->
+    </div>
 
     <!-- Loading container -->
     <div class="loading-container">
@@ -287,13 +316,13 @@ onMounted(() => {
                 <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">I optimize website user experience and bring concepts to life.</p>
             </div>
             <SocialNav />
-            <!-- <div class="mt-8">
+            <div class="mt-8 max-sm:mb-20">
                 <a href="#" @click.prevent="showContact">
-                    <p class="text-slate-200">Let's Collaborate
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Shoot me an email
+                        <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                     </p>
                 </a>
-            </div> -->
+            </div>
             <nav class="mt-12 max-md:hidden md:hidden lg:block" id="menu">
                 <a href="#section1" id="link1" class="text-slate-500 text-xs font-bold flex flex-wrap nav-link hover:text-slate-200">
                     <div id="link-line-1" class="line mt-2 mr-4"></div>
@@ -313,7 +342,7 @@ onMounted(() => {
         <!-- Right Column -->
         <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-0 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-0 lg:p-28 lg:max-h-auto lg:overflow-y-auto">
             <div>
-                <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-400 max-md:text-slate-400">ABOUT</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400">ABOUT</h1>
                 <section id="section1" class="text-slate-400 text-md section">
                     <div>
                         <p>Back in 2014 - 2018, when I was still studying, I developed an interest in web designing. I create mockups and convert them into HTML and CSS. I even gave myself the title of a front-end designer. However, fast forward, when I started working, my knowledge in front-end development expanded. I realized that it's not just about creating mockups and converting them into HTML and CSS. Front-end development also involves interactions with data. For example, you may need to fetch data to dynamically display it on the front-end side of the system.</p>
@@ -322,7 +351,7 @@ onMounted(() => {
                     </div>
                 </section>
 
-                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-400 max-md:text-slate-400">EXPERIENCE</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400">EXPERIENCE</h1>
                 <section id="section2" class="section">
                     <div>
                         <a href="https://www.prolook.com/" target="_blank">
@@ -405,7 +434,7 @@ onMounted(() => {
                     </div>
                 </section>
 
-                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-400 max-md:text-slate-400">PROJECTS</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400">PROJECTS</h1>
                 <section id="section3" class="mt-6 section">
                     <div class="flex">
                         <div class="max-sm:hidden">
@@ -571,5 +600,11 @@ onMounted(() => {
         animation-duration: 0.5s;
         animation-fill-mode: both;
         animation-name: fadeInLeft;
+    }
+
+    .fade-out-left-animation {
+        animation-duration: 0.5s;
+        animation-fill-mode: both;
+        animation-name: fadeOutLeft;
     }
 </style>
