@@ -531,7 +531,7 @@ onMounted(() => {
         z-index: 9999;
         max-height: auto; 
         overflow-y: auto;
-        transition: opacity 0.5s ease; /* Smooth opacity transition */
+        transition: opacity 0.5s ease;
     }
 
     .loading-text {
