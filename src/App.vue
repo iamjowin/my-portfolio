@@ -1,10 +1,11 @@
 <script setup>
+import SocialNav from './components/social-nav.vue'
 import { RouterLink, RouterView } from 'vue-router'
 import { usePorfolioStore } from './stores/data'
 import { handleIntersect } from './plugins/observer'
 import { handleClickScroll } from './plugins/scroll'
 import { handleHideLoading } from './plugins/loading'
-import SocialNav from './components/social-nav.vue'
+import { ArrowUpRightIcon, ArrowRightIcon, ArrowLeftIcon, XMarkIcon } from '@heroicons/vue/24/solid'
 import { onMounted } from 'vue'
 
 const portfolioStore = usePorfolioStore();
@@ -53,11 +54,11 @@ onMounted(() => {
     <!-- Projects container -->
     <div class="projects-container bg-[#0f172a] hidden">
         <button @click="hideProjects" class="contact-close-btn">
-            <i class="fa fa-times text-[#5be3d4]" aria-hidden="true"></i>
+            <XMarkIcon class="h-8 w-7 text-[#5be3d4] mt-1 mr-1" />
         </button>
         <div class="max-sm:p-10 md:p-10 lg:p-20 lg:pl-28">
-            <a class="text-[#5be3d4]" href="#" @click.prevent="hideProjects">
-                <i class="fa fa-arrow-left mr-2" aria-hidden="true"></i>
+            <a class="text-[#5be3d4] flex flex-wrap" href="#" @click.prevent="hideProjects">
+                <ArrowLeftIcon class="h-4 w-5 text-[#5be3d4] mt-1 mr-1" />
                 Jowin Cueto
             </a>
             <h1 class="text-4xl font-bold text-white mt-1">All Projects</h1>
@@ -294,15 +295,15 @@ onMounted(() => {
                 </a>
             </div> -->
             <nav class="mt-12 max-md:hidden md:hidden lg:block" id="menu">
-                <a href="#section1" id="link1" class="text-slate-500 text-xs font-bold flex flex-wrap nav-link">
+                <a href="#section1" id="link1" class="text-slate-500 text-xs font-bold flex flex-wrap nav-link hover:text-slate-200">
                     <div id="link-line-1" class="line mt-2 mr-4"></div>
                     ABOUT
                 </a>
-                <a href="#section2" id="link2" class="text-slate-500 text-xs font-bold flex flex-wrap mt-4 nav-link">
+                <a href="#section2" id="link2" class="text-slate-500 text-xs font-bold flex flex-wrap mt-4 nav-link hover:text-slate-200">
                     <div id="link-line-2" class="line mt-2 mr-4"></div>
                     EXPERIENCE
                 </a>
-                <a href="#section3" id="link3" class="text-slate-500 text-xs font-bold flex flex-wrap mt-4 nav-link">
+                <a href="#section3" id="link3" class="text-slate-500 text-xs font-bold flex flex-wrap mt-4 nav-link hover:text-slate-200">
                     <div id="link-line-3" class="line mt-2 mr-4"></div>
                     PROJECTS
                 </a>
@@ -325,10 +326,10 @@ onMounted(() => {
                 <section id="section2" class="section">
                     <div>
                         <a href="https://www.prolook.com/" target="_blank">
-                            <p class="text-slate-200">Prolook Sports
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <span class="text-slate-400 float-right text-xs">2019 - PRESENT</span>
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Prolook Sports
+                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                             </p>
+                            <span class="text-slate-400 text-xs float-right">2019 - PRESENT</span>
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
                         <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs and implementing new features. Make sure the to implement reusable component and implement <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Make sure the code is maintainable and readable.</p>
@@ -348,10 +349,10 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="https://wordtorque.graxia.dev" target="_blank">
-                            <p class="text-slate-200">Wordtorque
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <span class="text-slate-400 float-right text-xs">2023</span>
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Wordtorque
+                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                             </p>
+                            <span class="text-slate-400 text-xs float-right">2023</span>
                         </a>
                         <p class="text-slate-600">Part Time - Front-End Developer</p>
                         <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs and user interface enhancement. Make sure the system is mobile responsinve and easy to navigate. </p>
@@ -365,10 +366,10 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="#" disabled class="cursor-not-allowed">
-                            <p class="text-slate-500">Codeeric IT Solution 
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <span class="text-slate-400 float-right text-xs">2018 - 2019</span>
+                            <p class="text-slate-500 flex flex-wrap">Codeeric IT Solution
+                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                             </p>
+                            <span class="text-slate-400 text-xs float-right">2018 - 2019</span>
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
                         <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs and implementing new features. Make sure the system is responsive and easy to navigate in mobile.</p>
@@ -383,10 +384,10 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="#" disabled class="cursor-not-allowed">
-                            <p class="text-slate-500">La Verdad Christian College 
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <span class="text-slate-400 float-right text-xs">2018</span>
+                            <p class="text-slate-500 flex flex-wrap">La Verdad Christian College
+                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                             </p>
+                            <span class="text-slate-400 text-xs float-right">2018</span>
                         </a>
                         <p class="text-slate-600">Internship Trainee - Front-End Developer</p>
                         <p class="mt-2 text-sm text-slate-400">Responsible for the development of the project, fixing bugs and implementing features. Make sure the the website is informative, responsive and easy to navigate in mobile.</p>
@@ -397,8 +398,8 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="/jmc-resume.pdf" target="_blank">
-                            <p class="text-slate-200">View full resume
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">View full resume
+                                <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                             </p>
                         </a>
                     </div>
@@ -412,8 +413,8 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://customizer.prolook.com/index" target="_blank">
-                                <p class="text-slate-200">Prolook Customizer 
-                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Prolook Customizer 
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniform like baseball, apparel, accessories and more. Add application like number and text, patterns, piping, custom logo and more. You can also order your customized uniform.</p>
@@ -431,8 +432,8 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://prolookteam.com/" target="_blank">
-                                <p class="text-slate-200">Dick's & Sporting Goods Customizer
-                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Dick's & Sporting Goods Customizer
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniform like baseball, apparel, accessories and more. Add application like number and text, patterns, piping, custom logo and more. You can also order your customized uniform.</p>
@@ -450,8 +451,8 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://www.pguniforms.com" target="_blank">
-                                <p class="text-slate-200">Perfect Game Customizer
-                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Perfect Game Customizer
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniform like baseball, apparel, accessories and more. Add application like number and text, patterns, piping, custom logo and more. You can also order your customized uniform.</p>
@@ -469,8 +470,8 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://www.alliteamuniforms.com" target="_blank">
-                                <p class="text-slate-200">Alli Customizer
-                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Alli Customizer
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniform like baseball, apparel, accessories and more. Add application like number and text, patterns, piping, custom logo and more. You can also order your customized uniform.</p>
@@ -484,15 +485,15 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="#" @click.prevent="showProjects">
-                            <p class="text-slate-200">View full project archive
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">View full project archive
+                                <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                             </p>
                         </a>
                     </div>
                 </section>
                 <section class="mt-20 max-sm:mb-10 md:mb-10 lg:mb-0">
-                    <div class="text-slate-500 text-xs">
-                        <p>Coded in<a class="text-slate-200" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font</p>
+                    <div class="text-slate-500 text-sm max-sm:text-xs">
+                        <p>Coded in<a class="text-slate-200 hover:text-[#5be3d4]" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200 hover:text-[#5be3d4]" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200 hover:text-[#5be3d4]" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200 hover:text-[#5be3d4]" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200 hover:text-[#5be3d4]" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font and <a class="text-slate-200 hover:text-[#5be3d4]" href="https://heroicons.com/" target="_blank">Heroicons</a> for icons.</p>
                     </div>
                 </section>
             </div>
