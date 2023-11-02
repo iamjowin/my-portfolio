@@ -5,7 +5,7 @@ import { usePorfolioStore } from './stores/data'
 import { handleIntersect } from './plugins/observer'
 import { handleClickScroll } from './plugins/scroll'
 import { handleHideLoading } from './plugins/loading'
-import { ArrowUpRightIcon, ArrowRightIcon, ArrowLeftIcon, XMarkIcon, PaperAirplaneIcon } from '@heroicons/vue/24/solid'
+import { ArrowUpRightIcon, ArrowRightIcon, XMarkIcon, PaperAirplaneIcon, ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/vue/24/solid'
 import { onMounted } from 'vue'
 
 const portfolioStore = usePorfolioStore();
@@ -522,6 +522,11 @@ onMounted(() => {
             </div>
         </div>
     </div>
+    <div class="hidden max-sm:flex fixed flex-col top-[80%] right-0">
+        <a href="#" class="w-[170px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000]" @click.prevent="showContact">
+            <ChatBubbleOvalLeftEllipsisIcon class="h-8 w-8 text-[#5be3d4] mt-2 mb-2 ml-1 bounce" />
+        </a>
+    </div>
 </template>
 <style>
     .loading-container {
@@ -602,8 +607,19 @@ onMounted(() => {
         animation-name: fadeOutLeft;
     }
 
-    .fade-in {
-        opacity: 0;
-        transition: opacity 2s cubic-bezier(0.23, 1, 0.32, 1); /* Adjust duration and timing function */
+    @keyframes custom-bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0); /* Starting, ending, and apex of the bounce */
+        }
+        40% {
+            transform: translateY(-2px); /* The peak of the bounce */
+        }
+        60% {
+            transform: translateY(-2px); /* A mid-point to control the height */
+        }
+    }
+
+    .bounce {
+        animation: custom-bounce 1s infinite;
     }
 </style>
