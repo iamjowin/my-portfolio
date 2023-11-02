@@ -306,12 +306,12 @@ onMounted(() => {
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer at Prolook Sports</h1>
-                <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400">I create user interface and user experience of a website or web application. Design and implement the visual elements, interactivity, functionality of the website.</p>
+                <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400">I create user interface and user experience of a website or web application. Design and implement the visual elements, interactivity and functionality of the website.</p>
             </div>
             <SocialNav />
             <div class="mt-8 max-sm:mb-20">
                 <a href="#" @click.prevent="showContact">
-                    <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4] w-1/2">Shoot me a message
+                    <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4] w-2/2">Shoot me a message
                         <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                     </p>
                 </a>
