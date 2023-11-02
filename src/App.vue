@@ -5,7 +5,15 @@ import { usePorfolioStore } from './stores/data'
 import { handleIntersect } from './plugins/observer'
 import { handleClickScroll } from './plugins/scroll'
 import { handleHideLoading } from './plugins/loading'
-import { ArrowUpRightIcon, ArrowRightIcon, XMarkIcon, PaperAirplaneIcon, ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/vue/24/solid'
+import { 
+    ArrowUpRightIcon, 
+    ArrowRightIcon, 
+    XMarkIcon, 
+    PaperAirplaneIcon, 
+    ChatBubbleOvalLeftEllipsisIcon,
+    ArchiveBoxIcon,
+    DocumentTextIcon 
+} from '@heroicons/vue/24/solid'
 import { onMounted } from 'vue'
 
 const portfolioStore = usePorfolioStore();
@@ -525,6 +533,12 @@ onMounted(() => {
     <div class="hidden max-sm:flex fixed flex-col top-[80%] right-0">
         <a href="#" class="w-[170px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000]" @click.prevent="showContact">
             <ChatBubbleOvalLeftEllipsisIcon class="h-8 w-8 text-[#5be3d4] mt-2 mb-2 ml-1 bounce" />
+        </a>
+        <a href="#" class="w-[170px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000] mt-1" @click.prevent="showProjects">
+            <ArchiveBoxIcon class="h-8 w-8 text-[#5be3d4] mt-2 mb-2 ml-1 bounce" />
+        </a>
+        <a href="/jmc-resume.pdf" class="w-[170px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000] mt-1">
+            <DocumentTextIcon class="h-8 w-8 text-[#5be3d4] mt-2 mb-2 ml-1 bounce" />
         </a>
     </div>
 </template>
