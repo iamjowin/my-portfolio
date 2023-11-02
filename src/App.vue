@@ -85,9 +85,9 @@ onMounted(() => {
                                     <td class="text-slate-500">2019</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Prolook 2.5 Customizer</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
-                                        <a href="https://customizer.prolook.com/index" target="_blank">
+                                        <a href="https://customizer.prolook.com/index" target="_blank" class="flex flex-wrap">
                                             Prolook 2.5 Customizer 
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            <ArrowUpRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                                         </a>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
@@ -107,9 +107,9 @@ onMounted(() => {
                                     <td class="text-slate-500">2020</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Marucci & Victus Customizer</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
-                                        <a href="#" target="_blank">
+                                        <a href="#" target="_blank" class="flex flex-wrap">
                                             Marucci & Victus Customizer
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            <ArrowUpRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                                         </a>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
@@ -128,9 +128,9 @@ onMounted(() => {
                                     <td class="text-slate-500">2021</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Dick's & Sporting Goods</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
-                                        <a href="https://prolookteam.com/" target="_blank">
+                                        <a href="https://prolookteam.com/" target="_blank" class="flex flex-wrap">
                                             Dick's & Sporting Goods
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            <ArrowUpRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                                         </a>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
@@ -150,9 +150,9 @@ onMounted(() => {
                                     <td class="text-slate-500">2022</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Prolook 2.75 Customizer</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
-                                        <a href="#" target="_blank">
+                                        <a href="#" target="_blank" class="flex flex-wrap">
                                             Prolook 2.75 Customizer
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            <ArrowUpRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                                         </a>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
@@ -172,9 +172,9 @@ onMounted(() => {
                                     <td class="text-slate-500">2023</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Core Customizer</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
-                                        <a href="https://customizer-core-prd.qstrike.net" target="_blank">
+                                        <a href="https://customizer-core-prd.qstrike.net" target="_blank" class="flex flex-wrap">
                                             Core Customizer
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            <ArrowUpRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                                         </a>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
@@ -194,9 +194,9 @@ onMounted(() => {
                                     <td class="text-slate-500">2023</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Perfect Game Customizer</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
-                                        <a href="https://www.pguniforms.com/" target="_blank">
+                                        <a href="https://www.pguniforms.com/" target="_blank" class="flex flex-wrap">
                                             Perfect Game Customizer
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            <ArrowUpRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                                         </a>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
@@ -216,9 +216,9 @@ onMounted(() => {
                                     <td class="text-slate-500">2023</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Alli Customizer</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
-                                        <a href="https://www.alliteamuniforms.com/" target="_blank">
+                                        <a href="https://www.alliteamuniforms.com/" target="_blank" class="flex flex-wrap">
                                             Alli Customizer
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            <ArrowUpRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                                         </a>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
@@ -238,9 +238,9 @@ onMounted(() => {
                                     <td class="text-slate-500">2023</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold max-sm:hidden">Wordtorque</td>
                                     <td class="max-sm:px-0 px-6 py-4 text-slate-200 font-bold lg:hidden md:hidden">
-                                        <a href="https://wordtorque.graxia.dev" target="_blank">
+                                        <a href="https://wordtorque.graxia.dev" target="_blank" class="flex flex-wrap">
                                             Wordtorque
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            <ArrowUpRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                                         </a>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Wordtorque</td>
