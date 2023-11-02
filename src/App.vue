@@ -530,7 +530,7 @@ onMounted(() => {
             </div>
         </div>
     </div>
-    <div class="hidden max-sm:flex fixed flex-col top-[80%] right-0">
+    <div class="hidden max-sm:flex fixed flex-col top-[50%] right-0">
         <a href="#" class="w-[170px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000]" @click.prevent="showContact">
             <ChatBubbleOvalLeftEllipsisIcon class="h-8 w-8 text-[#5be3d4] mt-2 mb-2 ml-1 bounce" />
         </a>
