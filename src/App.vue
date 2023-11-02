@@ -273,7 +273,7 @@ onMounted(() => {
                 <div class="grid md:grid-cols-2 md:gap-6">
                     <div class="relative z-0 w-full mb-6 group">
                         <input type="text" name="name" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
-                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-40020 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
                     </div>
                     <div class="relative z-0 w-full mb-6 group">
                         <input type="email" name="email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
@@ -302,7 +302,8 @@ onMounted(() => {
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:p-28">
-            <h1 class="text-5xl font-extrabold text-white mt-1 my-name">JMC</h1>
+            <h1 class="text-5xl font-extrabold text-white mt-1 my-name max-sm:hidden">Jowin Cueto</h1>
+            <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer at Prolook Sports</h1>
                 <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">I optimize website user experience and bring concepts to life.</p>
@@ -310,7 +311,7 @@ onMounted(() => {
             <SocialNav />
             <div class="mt-8 max-sm:mb-20">
                 <a href="#" @click.prevent="showContact">
-                    <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Shoot me an email
+                    <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4] w-1/2">Shoot me an email
                         <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                     </p>
                 </a>
@@ -336,7 +337,7 @@ onMounted(() => {
             <div>
                 <section id="section0" class="section"></section>
                 <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400 about-heading">ABOUT</h1>
-                <section id="section1" class="text-slate-400 text-md section">
+                <section id="section1" class="text-slate-400 text-md section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div>
                         <p>Back in 2014 - 2018, when I was still studying, I developed an interest in web designing. I create mockups and convert them into HTML and CSS. I even gave myself the title of a front-end designer. However, fast forward, when I started working, my knowledge in front-end development expanded. I realized that it's not just about creating mockups and converting them into HTML and CSS. Front-end development also involves interactions with data. For example, you may need to fetch data to dynamically display it on the front-end side of the system.</p>
                         <p class="mt-7">Currently, I work at <a href="https://www.prolook.com/" target="_blank" class="text-slate-200">Prolook Sports</a>. I've been there for just over 4 years. My responsibilities is to maintain existing projects like emplementing new features and bug fixing. I love non-strict environment because I can think clearly and focus on what I'm doing.</p>
@@ -345,7 +346,7 @@ onMounted(() => {
                 </section>
 
                 <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400 exp-heading">EXPERIENCE</h1>
-                <section id="section2" class="section">
+                <section id="section2" class="section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div>
                         <a href="https://www.prolook.com/" target="_blank">
                             <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Prolook Sports
@@ -428,7 +429,7 @@ onMounted(() => {
                 </section>
 
                 <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400 project-heading">PROJECTS</h1>
-                <section id="section3" class="mt-6 section">
+                <section id="section3" class="mt-6 section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div class="flex">
                         <div class="max-sm:hidden">
                             <img src="./assets/projects/prolook.png" width="300" height="48" class="rounded-sm"/>
@@ -599,5 +600,10 @@ onMounted(() => {
         animation-duration: 0.5s;
         animation-fill-mode: both;
         animation-name: fadeOutLeft;
+    }
+
+    .fade-in {
+        opacity: 0;
+        transition: opacity 2s cubic-bezier(0.23, 1, 0.32, 1); /* Adjust duration and timing function */
     }
 </style>

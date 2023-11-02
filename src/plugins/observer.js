@@ -16,17 +16,23 @@ export function handleIntersect(entries, observer, data) {
             const expHeading = document.querySelector('.exp-heading')
             const projectHeading = document.querySelector('.project-heading')
 
+            const section1 = document.querySelector('#section1');
+            const section2 = document.querySelector('#section2');
+            const section3 = document.querySelector('#section3');
+
             if (targetId === 'section0') {
-                aboutHeading.classList.remove(
-                    'max-sm:fixed',
-                    'max-sm:top-0',
-                    'max-sm:bg-[#0c1221]',
-                    'max-sm:w-full',
-                    'max-sm:right-0',
-                    'max-sm:pl-10',
-                    'max-sm:pt-1',
-                    'max-sm:pb-1'
-                );
+                if (window.innerWidth <= 768) {
+                    aboutHeading.classList.remove(
+                        'max-sm:fixed',
+                        'max-sm:top-0',
+                        'max-sm:bg-[#0c1221]',
+                        'max-sm:w-full',
+                        'max-sm:right-0',
+                        'max-sm:pl-10',
+                        'max-sm:pt-1',
+                        'max-sm:pb-1'
+                    );
+                }
             }
 
             if (targetId === 'section1') {
@@ -37,6 +43,10 @@ export function handleIntersect(entries, observer, data) {
                 line1.classList.add('line-width');
                 line2.classList.remove('line-width')
                 line3.classList.remove('line-width')
+
+                section1.classList.remove('opacity-0')
+                section2.classList.add('opacity-0')
+                section3.classList.add('opacity-0')
                 
                 if (window.innerWidth <= 768) {
                     aboutHeading.classList.add(
@@ -84,6 +94,10 @@ export function handleIntersect(entries, observer, data) {
                 line1.classList.remove('line-width');
                 line2.classList.add('line-width')
                 line3.classList.remove('line-width')
+
+                section2.classList.remove('opacity-0')
+                section1.classList.add('opacity-0')
+                section3.classList.add('opacity-0')
 
                 if (window.innerWidth <= 768) {
                     expHeading.classList.add(
@@ -133,6 +147,10 @@ export function handleIntersect(entries, observer, data) {
                 line2.classList.remove('line-width')
                 line3.classList.add('line-width')
 
+                section3.classList.remove('opacity-0')
+                section1.classList.add('opacity-0')
+                section2.classList.add('opacity-0')
+
                 if (window.innerWidth <= 768) {
                     projectHeading.classList.add(
                         'max-sm:fixed',
@@ -144,9 +162,8 @@ export function handleIntersect(entries, observer, data) {
                         'max-sm:pt-1',
                         'max-sm:pb-1'
                     );
-    
+
                     projectHeading.classList.remove('mt-28')
-                    expHeading.classList.add('mt-28')
     
                     aboutHeading.classList.remove(
                         'max-sm:fixed',
