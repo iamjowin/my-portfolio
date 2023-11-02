@@ -306,12 +306,12 @@ onMounted(() => {
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer at Prolook Sports</h1>
-                <p class="w-full lg:w-1/2 mt-4 text-md text-slate-400">I optimize website user experience and bring concepts to life.</p>
+                <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400">I create user interface and user experience of a website or web application. Design and implement the visual elements, interactivity, functionality of the website.</p>
             </div>
             <SocialNav />
             <div class="mt-8 max-sm:mb-20">
                 <a href="#" @click.prevent="showContact">
-                    <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4] w-1/2">Shoot me an email
+                    <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4] w-1/2">Shoot me a message
                         <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                     </p>
                 </a>
@@ -341,7 +341,7 @@ onMounted(() => {
                     <div>
                         <p>Back in 2014 - 2018, when I was still studying, I developed an interest in web designing. I create mockups and convert them into HTML and CSS. I even gave myself the title of a front-end designer. However, fast forward, when I started working, my knowledge in front-end development expanded. I realized that it's not just about creating mockups and converting them into HTML and CSS. Front-end development also involves interactions with data. For example, you may need to fetch data to dynamically display it on the front-end side of the system.</p>
                         <p class="mt-7">Currently, I work at <a href="https://www.prolook.com/" target="_blank" class="text-slate-200">Prolook Sports</a>. I've been there for just over 4 years. My responsibilities is to maintain existing projects like emplementing new features and bug fixing. I love non-strict environment because I can think clearly and focus on what I'm doing.</p>
-                        <p class="mt-7">When I'm not in front of the computer, especially after finishing work, I go to the gym to exercise. This is very important, especially for us programmers who are always in front of the computer and sitting down.</p>
+                        <p class="mt-7">When I'm not in front of the computer, especially after finishing work, either I go to the gym or biking to exercise. This is very important, especially for us programmers who are always in front of the computer and sitting down.</p>
                     </div>
                 </section>
 
