@@ -314,7 +314,7 @@ onMounted(() => {
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer at Prolook Sports</h1>
-                <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400">I create user interface and user experience of a website or web application. Design and implement the visual elements, interactivity and functionality of the website.</p>
+                <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400">I create the user interface and user experience for a website or web application. I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
             <div class="mt-8 max-sm:mb-20">
@@ -347,9 +347,9 @@ onMounted(() => {
                 <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400 about-heading">ABOUT</h1>
                 <section id="section1" class="text-slate-400 text-md section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div>
-                        <p>Back in 2014 - 2018, when I was still studying, I developed an interest in web designing. I create mockups and convert them into HTML and CSS. I even gave myself the title of a front-end designer. However, fast forward, when I started working, my knowledge in front-end development expanded. I realized that it's not just about creating mockups and converting them into HTML and CSS. Front-end development also involves interactions with data. For example, you may need to fetch data to dynamically display it on the front-end side of the system.</p>
-                        <p class="mt-7">Currently, I work at <a href="https://www.prolook.com/" target="_blank" class="text-slate-200">Prolook Sports</a>. I've been there for just over 4 years. My responsibilities is to maintain existing projects like emplementing new features and bug fixing. I love non-strict environment because I can think clearly and focus on what I'm doing.</p>
-                        <p class="mt-7">When I'm not in front of the computer, especially after finishing work, either I go to the gym or biking to exercise. This is very important, especially for us programmers who are always in front of the computer and sitting down.</p>
+                        <p>In the years 2014 to 2018, while I was still a student, I developed an interest in web design. I created mockups and converted them into HTML and CSS. I even gave myself the title of a front-end designer. However, as time passed and I entered the workforce, my understanding of front-end development expanded. I realized that it's not just about creating mockups and converting them into HTML and CSS; front-end development also encompasses interactions with data. For instance, you may need to fetch data to dynamically display it on the front-end side of the system.</p>
+                        <p class="mt-7">Currently, I work at <a href="https://www.prolook.com/" target="_blank" class="text-slate-200">Prolook Sports</a>, where I have been employed for just over 4 years. My responsibilities include maintaining existing projects by implementing new features and fixing bugs. I enjoy the non-strict environment, as it allows me to think clearly and focus on my work.</p>
+                        <p class="mt-7">When I'm not in front of the computer, especially after finishing work, I either go to the gym or biking to exercise. This is essentail for me, particularly for us programmers who spend most of our time in front of the computer and sitting down.</p>
                     </div>
                 </section>
 
@@ -363,7 +363,7 @@ onMounted(() => {
                             <span class="text-slate-400 text-xs float-right">2019 - PRESENT</span>
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs and implementing new features. Make sure the to implement reusable component and implement <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Make sure the code is maintainable and readable.</p>
+                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
@@ -386,7 +386,7 @@ onMounted(() => {
                             <span class="text-slate-400 text-xs float-right">2023</span>
                         </a>
                         <p class="text-slate-600">Part Time - Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs and user interface enhancement. Make sure the system is mobile responsinve and easy to navigate. </p>
+                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and enhancing the user interface. Ensuring the system is mobile-responsive and easy to navigate.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
@@ -403,7 +403,7 @@ onMounted(() => {
                             <span class="text-slate-400 text-xs float-right">2018 - 2019</span>
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs and implementing new features. Make sure the system is responsive and easy to navigate in mobile.</p>
+                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring that the system is responsive and easy to navigate on mobile.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
@@ -421,7 +421,7 @@ onMounted(() => {
                             <span class="text-slate-400 text-xs float-right">2018</span>
                         </a>
                         <p class="text-slate-600">Internship Trainee - Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for the development of the project, fixing bugs and implementing features. Make sure the the website is informative, responsive and easy to navigate in mobile.</p>
+                        <p class="mt-2 text-sm text-slate-400">Responsible for project development, bug fixing, and feature implementation. Ensuring the website is informative, responsive, and easy to navigate on mobile.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Wix (CMS)</li>
@@ -448,7 +448,7 @@ onMounted(() => {
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
-                            <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniform like baseball, apparel, accessories and more. Add application like number and text, patterns, piping, custom logo and more. You can also order your customized uniform.</p>
+                            <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
                             <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
@@ -467,7 +467,7 @@ onMounted(() => {
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
-                            <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniform like baseball, apparel, accessories and more. Add application like number and text, patterns, piping, custom logo and more. You can also order your customized uniform.</p>
+                            <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
                             <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
@@ -486,7 +486,7 @@ onMounted(() => {
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
-                            <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniform like baseball, apparel, accessories and more. Add application like number and text, patterns, piping, custom logo and more. You can also order your customized uniform.</p>
+                            <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
                             <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
@@ -505,7 +505,7 @@ onMounted(() => {
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
-                            <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniform like baseball, apparel, accessories and more. Add application like number and text, patterns, piping, custom logo and more. You can also order your customized uniform.</p>
+                            <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
                             <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
