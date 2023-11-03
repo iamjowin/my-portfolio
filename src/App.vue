@@ -303,7 +303,7 @@ onMounted(() => {
 
     <!-- Loading container -->
     <div class="loading-container">
-        <img src="./assets/bricks-loading-2.svg">
+        <img src="./assets/bricks-loading.svg">
     </div>
 
     <!-- Index container -->
@@ -530,15 +530,15 @@ onMounted(() => {
             </div>
         </div>
     </div>
-    <div class="hidden max-sm:flex fixed flex-col top-[50%] right-0">
-        <a href="#" class="w-[170px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000]" @click.prevent="showContact">
-            <ChatBubbleOvalLeftEllipsisIcon class="h-8 w-8 text-[#5be3d4] mt-2 mb-2 ml-1 bounce" />
+    <div class="fixed flex-col top-[50%] max-sm:right-0 lg:left-0">
+        <a href="#" class="max-sm:w-[170px] lg:w-[40px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000]" @click.prevent="showContact">
+            <ChatBubbleOvalLeftEllipsisIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1 bounce" />
         </a>
-        <a href="#" class="w-[170px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000] mt-1" @click.prevent="showProjects">
-            <ArchiveBoxIcon class="h-8 w-8 text-[#5be3d4] mt-2 mb-2 ml-1 bounce" />
+        <a href="#" class="max-sm:w-[170px] lg:w-[40px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000] mt-1" @click.prevent="showProjects">
+            <ArchiveBoxIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1 bounce" />
         </a>
-        <a href="/jmc-resume.pdf" class="w-[170px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000] mt-1">
-            <DocumentTextIcon class="h-8 w-8 text-[#5be3d4] mt-2 mb-2 ml-1 bounce" />
+        <a href="/jmc-resume.pdf" class="max-sm:w-[170px] lg:w-[40px] h-[40px] flex justify-between items-center mr-[-130px] duration-300 bg-[#000] mt-1">
+            <DocumentTextIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1 bounce" />
         </a>
     </div>
 </template>

@@ -5,6 +5,7 @@ export function handleClickScroll(navLinks) {
             
             const targetId = link.getAttribute("href").substring(1);
             const targetSection = document.getElementById(targetId);
+            
             if (targetSection) {
                 targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
             }
