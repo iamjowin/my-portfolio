@@ -317,23 +317,23 @@ onMounted(() => {
                 <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400">I create the user interface and user experience for a website or web application. I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
-            <div class="mt-8 max-sm:mb-20">
+            <!-- <div class="mt-8 max-sm:mb-20">
                 <a href="#" @click.prevent="showContact">
                     <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4] w-2/2">Shoot me a message
                         <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                     </p>
                 </a>
-            </div>
+            </div> -->
             <nav class="mt-12 max-md:hidden md:hidden lg:block" id="menu">
                 <a href="#section1" id="link1" class="text-slate-500 text-xs font-bold flex flex-wrap nav-link hover:text-slate-200">
                     <div id="link-line-1" class="line mt-2 mr-4"></div>
                     ABOUT
                 </a>
-                <a href="#section2" id="link2" class="text-slate-500 text-xs font-bold flex flex-wrap mt-4 nav-link hover:text-slate-200">
+                <a href="#section2" id="link2" class="text-slate-500 text-xs font-bold flex flex-wrap mt-5 nav-link hover:text-slate-200">
                     <div id="link-line-2" class="line mt-2 mr-4"></div>
                     EXPERIENCE
                 </a>
-                <a href="#section3" id="link3" class="text-slate-500 text-xs font-bold flex flex-wrap mt-4 nav-link hover:text-slate-200">
+                <a href="#section3" id="link3" class="text-slate-500 text-xs font-bold flex flex-wrap mt-5 nav-link hover:text-slate-200">
                     <div id="link-line-3" class="line mt-2 mr-4"></div>
                     PROJECTS
                 </a>
@@ -342,13 +342,13 @@ onMounted(() => {
 
         <!-- Right Column -->
         <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-0 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-0 lg:p-28 lg:max-h-auto lg:overflow-y-auto">
-            <div>
+            <div class="max-sm:mt-12">
                 <section id="section0" class="section"></section>
                 <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400 about-heading">ABOUT</h1>
                 <section id="section1" class="text-slate-400 text-md section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div>
                         <p>In the years 2014 to 2018, while I was still a student, I developed an interest in web design. I created mockups and converted them into HTML and CSS. I even gave myself the title of a front-end designer. However, as time passed and I entered the workforce, my understanding of front-end development expanded. I realized that it's not just about creating mockups and converting them into HTML and CSS; front-end development also encompasses interactions with data. For instance, you may need to fetch data to dynamically display it on the front-end side of the system.</p>
-                        <p class="mt-7">Currently, I work at <a href="https://www.prolook.com/" target="_blank" class="text-slate-200">Prolook Sports</a>, where I have been employed for just over 4 years. My responsibilities include maintaining existing projects by implementing new features and fixing bugs. I enjoy the non-strict environment, as it allows me to think clearly and focus on my work.</p>
+                        <p class="mt-7">Currently, I work at <a href="https://www.prolook.com/" target="_blank" class="text-slate-200 font-medium">Prolook Sports</a>, where I have been employed for just over 4 years. My responsibilities include maintaining existing projects by implementing new features and fixing bugs. I enjoy the non-strict environment, as it allows me to think clearly and focus on my work.</p>
                         <p class="mt-7">When I'm not in front of the computer, especially after finishing work, I either go to the gym or biking to exercise. This is essentail for me, particularly for us programmers who spend most of our time in front of the computer and sitting down.</p>
                     </div>
                 </section>
@@ -440,7 +440,7 @@ onMounted(() => {
                 <section id="section3" class="mt-6 section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div class="flex">
                         <div class="max-sm:hidden">
-                            <img src="./assets/projects/prolook.png" width="300" height="48" class="rounded-sm"/>
+                            <img src="./assets/projects/prolook.png" width="400" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://customizer.prolook.com/index" target="_blank">
@@ -457,9 +457,9 @@ onMounted(() => {
                             </ul>
                         </div>
                     </div>
-                    <div class="flex mt-10">
+                    <div class="flex mt-16">
                         <div class="max-sm:hidden">
-                            <img src="./assets/projects/dsg.png" width="300" height="48" class="rounded-sm"/>
+                            <img src="./assets/projects/dsg.png" width="400" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://prolookteam.com/" target="_blank">
@@ -476,9 +476,9 @@ onMounted(() => {
                             </ul>
                         </div>
                     </div>
-                    <div class="flex mt-10">
+                    <div class="flex mt-16">
                         <div class="max-sm:hidden">
-                            <img src="./assets/projects/pg.png" width="300" height="48" class="rounded-sm"/>
+                            <img src="./assets/projects/pg.png" width="400" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://www.pguniforms.com" target="_blank">
@@ -495,9 +495,9 @@ onMounted(() => {
                             </ul>
                         </div>
                     </div>
-                    <div class="flex mt-10">
+                    <div class="flex mt-16">
                         <div class="max-sm:hidden">
-                            <img src="./assets/projects/alli.png" width="300" height="48" class="rounded-sm"/>
+                            <img src="./assets/projects/alli.png" width="400" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://www.alliteamuniforms.com" target="_blank">
@@ -532,13 +532,13 @@ onMounted(() => {
     </div>
     <div class="fixed flex-col top-[50%] max-sm:top-[75%] max-sm:right-3 lg:left-0">
         <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#000]" @click.prevent="showContact">
-            <ChatBubbleOvalLeftEllipsisIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1 bounce" />
+            <PaperAirplaneIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
         <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#000] mt-1" @click.prevent="showProjects">
-            <ArchiveBoxIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1 bounce" />
+            <ArchiveBoxIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
         <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#000] mt-1">
-            <DocumentTextIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1 bounce" />
+            <DocumentTextIcon class="h-7 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
     </div>
 </template>
@@ -619,21 +619,5 @@ onMounted(() => {
         animation-duration: 0.5s;
         animation-fill-mode: both;
         animation-name: fadeOutLeft;
-    }
-
-    @keyframes custom-bounce {
-        0%, 20%, 50%, 80%, 100% {
-            transform: translateY(0); /* Starting, ending, and apex of the bounce */
-        }
-        40% {
-            transform: translateY(-2px); /* The peak of the bounce */
-        }
-        60% {
-            transform: translateY(-2px); /* A mid-point to control the height */
-        }
-    }
-
-    .bounce {
-        animation: custom-bounce 1s infinite;
     }
 </style>
