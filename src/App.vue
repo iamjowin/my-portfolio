@@ -536,13 +536,13 @@ onMounted(() => {
         </div>
     </div>
     <div class="fixed flex-col top-[50%] max-sm:top-[75%] max-sm:right-3 lg:left-0">
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221]" @click.prevent="showContact">
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221]" @click.prevent="showContact">
             <PaperAirplaneIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2" @click.prevent="showProjects">
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2" @click.prevent="showProjects">
             <ArchiveBoxIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
-        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2">
+        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2">
             <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
     </div>
