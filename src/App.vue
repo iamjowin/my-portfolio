@@ -13,7 +13,7 @@ import {
     ChatBubbleOvalLeftEllipsisIcon,
     ArchiveBoxIcon,
     DocumentTextIcon 
-} from '@heroicons/vue/24/solid'
+} from '@heroicons/vue/24/outline'
 import { onMounted } from 'vue'
 
 const portfolioStore = usePorfolioStore();
@@ -52,7 +52,7 @@ const hideProjects = () => {
 onMounted(() => {
     const loadingContainer = document.querySelector('.loading-container');
 
-    handleHideLoading(loadingContainer, 4000)
+    handleHideLoading(loadingContainer, 3000)
 
     const sections = document.querySelectorAll(".section");
 
@@ -358,7 +358,7 @@ onMounted(() => {
                     </div>
                 </section>
 
-                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400 exp-heading">EXPERIENCE</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 exp-heading">EXPERIENCE</h1>
                 <section id="section2" class="section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div>
                         <a href="https://www.prolook.com/" target="_blank">
@@ -441,7 +441,7 @@ onMounted(() => {
                     </div>
                 </section>
 
-                <h1 class="text-xl font-bold mb-4 text-slate-700 mt-28 max-sm:text-slate-200 max-md:text-slate-400 project-heading">PROJECTS</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 project-heading">PROJECTS</h1>
                 <section id="section3" class="mt-6 section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div class="flex">
                         <div class="max-sm:hidden">
@@ -536,14 +536,14 @@ onMounted(() => {
         </div>
     </div>
     <div class="fixed flex-col top-[50%] max-sm:top-[75%] max-sm:right-3 lg:left-0">
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#000]" @click.prevent="showContact">
-            <PaperAirplaneIcon class="max-sm:h-5 h-7 w-8 text-white mt-2 mb-2 ml-1" />
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221]" @click.prevent="showContact">
+            <PaperAirplaneIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#000] mt-1" @click.prevent="showProjects">
-            <ArchiveBoxIcon class="max-sm:h-5 h-7 w-8 text-white mt-2 mb-2 ml-1" />
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2" @click.prevent="showProjects">
+            <ArchiveBoxIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
-        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#000] mt-1">
-            <DocumentTextIcon class="max-sm:h-5 h-7 w-8 text-white mt-2 mb-2 ml-1" />
+        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[40px] pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2">
+            <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
         </a>
     </div>
 </template>
@@ -624,5 +624,10 @@ onMounted(() => {
         animation-duration: 0.5s;
         animation-fill-mode: both;
         animation-name: fadeOutLeft;
+    }
+
+    .fade-out {
+        opacity: 0;
+        transition: opacity 0.5s;
     }
 </style>

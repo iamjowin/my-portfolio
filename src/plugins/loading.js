@@ -1,6 +1,7 @@
 export function handleHideLoading(container, timeout) {
     setTimeout(() => {
-        container.style.display = 'none';
+        container.classList.add('fade-out');
+        container.style.zIndex = -1;
 
         animateLeftColumn();
         animateAboutSection();
