@@ -2,6 +2,8 @@ export function handleIntersect(entries, observer, data) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
 
+            console.log(entry.rootMargin)
+
             const targetId = entry.target.id;
 
             const link1 = document.querySelector('#link1');

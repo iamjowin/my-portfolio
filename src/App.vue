@@ -56,9 +56,14 @@ onMounted(() => {
 
     const sections = document.querySelectorAll(".section");
 
+    const options = {
+        rootMargin: '0px 0px -20% 0px',
+        threshold: 0.5
+    }
+
     sections.forEach((section) => {
         const observer = new IntersectionObserver((entries, observer) => {
-        handleIntersect(entries, observer, portfolioStore)}, { threshold: 0.5 });
+        handleIntersect(entries, observer, portfolioStore)}, options);
         observer.observe(section);
     });
 
