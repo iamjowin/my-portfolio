@@ -298,8 +298,8 @@ onMounted(() => {
                     <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
                 </div>
                 
-                <button type="submit" class="flex flex-wrap mt-10 text-[#5be3d4] bg-black hover:bg-[#000] font-medium text-sm px-5 py-2.5 text-justify">Shoot
-                    <PaperAirplaneIcon class="h-4 w-5 text-[#5be3d4] mt-0.5 ml-1" />
+                <button type="submit" class="flex flex-wrap mt-10 text-[#5be3d4] bg-[#0c1221] font-medium text-sm px-5 py-2.5 text-justify hovered-btn">Shoot
+                    <PaperAirplaneIcon class="absolute-icon h-4 w-5 text-[#5be3d4] mt-0.5 ml-1 transform duration-300" />
                 </button>
             </form>
 
@@ -315,7 +315,7 @@ onMounted(() => {
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:p-28">
-            <h1 class="text-5xl font-extrabold text-white mt-1 my-name max-sm:hidden">Jowin Cueto</h1>
+            <h1 class="text-5xl font-extrabold text-white mt-1 my-name max-sm:hidden">JOWIN CUETO</h1>
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer at Prolook Sports</h1>
@@ -361,14 +361,15 @@ onMounted(() => {
                 <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 exp-heading">EXPERIENCE</h1>
                 <section id="section2" class="section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div>
-                        <a href="https://www.prolook.com/" target="_blank">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Prolook Sports
-                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
+                        <a href="https://www.prolook.com/" target="_blank" class="hovered-btn">
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">
+                                <span class="text-slate-400 text-xs float-right mt-1 mr-2">2019 - PRESENT -</span>
+                                Prolook Sports
+                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                             </p>
-                            <span class="text-slate-400 text-xs float-right">2019 - PRESENT</span>
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
+                        <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
@@ -384,14 +385,15 @@ onMounted(() => {
                         </ul>
                     </div>
                     <div class="mt-10">
-                        <a href="https://wordtorque.graxia.dev" target="_blank">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Wordtorque
-                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
+                        <a href="https://wordtorque.graxia.dev" target="_blank" class="hovered-btn">
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">
+                                <span class="text-slate-400 text-xs float-right mt-1 mr-2">2023 -</span>
+                                Wordtorque
+                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                             </p>
-                            <span class="text-slate-400 text-xs float-right">2023</span>
                         </a>
                         <p class="text-slate-600">Part Time - Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and enhancing the user interface. Ensuring the system is mobile-responsive and easy to navigate.</p>
+                        <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and enhancing the user interface. Ensuring the system is mobile-responsive and easy to navigate.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
@@ -402,13 +404,14 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="#" disabled class="cursor-not-allowed">
-                            <p class="text-slate-500 flex flex-wrap">Codeeric IT Solution
+                            <p class="text-slate-500 flex flex-wrap">
+                                <span class="text-slate-400 text-xs float-right mt-1 mr-2">2018 - 2019 -</span>
+                                Codeeric IT Solution
                                 <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                             </p>
-                            <span class="text-slate-400 text-xs float-right">2018 - 2019</span>
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring that the system is responsive and easy to navigate on mobile.</p>
+                        <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring that the system is responsive and easy to navigate on mobile.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
@@ -420,22 +423,23 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="#" disabled class="cursor-not-allowed">
-                            <p class="text-slate-500 flex flex-wrap">La Verdad Christian College
+                            <p class="text-slate-500 flex flex-wrap">
+                                <span class="text-slate-400 text-xs float-right mt-1 mr-2">2018 -</span>
+                                La Verdad Christian College
                                 <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                             </p>
-                            <span class="text-slate-400 text-xs float-right">2018</span>
                         </a>
                         <p class="text-slate-600">Internship Trainee - Front-End Developer</p>
-                        <p class="mt-2 text-sm text-slate-400">Responsible for project development, bug fixing, and feature implementation. Ensuring the website is informative, responsive, and easy to navigate on mobile.</p>
+                        <p class="mt-3 text-sm text-slate-400">Responsible for project development, bug fixing, and feature implementation. Ensuring the website is informative, responsive, and easy to navigate on mobile.</p>
                         <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Wix (CMS)</li>
                         </ul>
                     </div>
                     <div class="mt-10">
-                        <a href="/jmc-resume.pdf" target="_blank">
+                        <a href="/jmc-resume.pdf" target="_blank" class="hovered-btn">
                             <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">View full resume
-                                <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
+                                <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1 absolute-icon transform duration-300" />
                             </p>
                         </a>
                     </div>
@@ -448,9 +452,9 @@ onMounted(() => {
                             <img src="./assets/projects/prolook.png" width="400" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
-                            <a href="https://customizer.prolook.com/index" target="_blank">
+                            <a href="https://customizer.prolook.com/index" target="_blank" class="hovered-btn">
                                 <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Prolook Customizer 
-                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300"/>
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
@@ -467,9 +471,9 @@ onMounted(() => {
                             <img src="./assets/projects/dsg.png" width="400" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
-                            <a href="https://prolookteam.com/" target="_blank">
+                            <a href="https://prolookteam.com/" target="_blank" class="hovered-btn">
                                 <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Dick's & Sporting Goods Customizer
-                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
@@ -486,9 +490,9 @@ onMounted(() => {
                             <img src="./assets/projects/pg.png" width="400" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
-                            <a href="https://www.pguniforms.com" target="_blank">
+                            <a href="https://www.pguniforms.com" target="_blank" class="hovered-btn">
                                 <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Perfect Game Customizer
-                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
@@ -505,9 +509,9 @@ onMounted(() => {
                             <img src="./assets/projects/alli.png" width="400" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
-                            <a href="https://www.alliteamuniforms.com" target="_blank">
+                            <a href="https://www.alliteamuniforms.com" target="_blank" class="hovered-btn">
                                 <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Alli Customizer
-                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
@@ -520,9 +524,9 @@ onMounted(() => {
                         </div>
                     </div>
                     <div class="mt-10">
-                        <a href="#" @click.prevent="showProjects">
+                        <a href="#" @click.prevent="showProjects" class="hovered-btn">
                             <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">View full project archive
-                                <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
+                                <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1 absolute-icon transform duration-300" />
                             </p>
                         </a>
                     </div>
@@ -629,5 +633,9 @@ onMounted(() => {
     .fade-out {
         opacity: 0;
         transition: opacity 0.5s;
+    }
+
+    .hovered-btn:hover .absolute-icon {
+        transform: translateX(5px);
     }
 </style>
