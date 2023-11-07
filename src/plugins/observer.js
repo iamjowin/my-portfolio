@@ -43,9 +43,9 @@ export function handleIntersect(entries, observer, data) {
                 line2.classList.remove('line-width')
                 line3.classList.remove('line-width')
 
-                section1.classList.remove('opacity-0')
-                section2.classList.add('opacity-0')
-                section3.classList.add('opacity-0')
+                // section1.classList.remove('opacity-0')
+                // section2.classList.add('opacity-0')
+                // section3.classList.add('opacity-0')
                 
                 if (window.innerWidth <= 768) {
                     aboutHeading.classList.add(
@@ -94,9 +94,9 @@ export function handleIntersect(entries, observer, data) {
                 line2.classList.add('line-width')
                 line3.classList.remove('line-width')
 
-                section2.classList.remove('opacity-0')
-                section1.classList.add('opacity-0')
-                section3.classList.add('opacity-0')
+                // section2.classList.remove('opacity-0')
+                // section1.classList.add('opacity-0')
+                // section3.classList.add('opacity-0')
 
                 if (window.innerWidth <= 768) {
                     expHeading.classList.add(
@@ -146,9 +146,9 @@ export function handleIntersect(entries, observer, data) {
                 line2.classList.remove('line-width')
                 line3.classList.add('line-width')
 
-                section3.classList.remove('opacity-0')
-                section1.classList.add('opacity-0')
-                section2.classList.add('opacity-0')
+                // section3.classList.remove('opacity-0')
+                // section1.classList.add('opacity-0')
+                // section2.classList.add('opacity-0')
 
                 if (window.innerWidth <= 768) {
                     projectHeading.classList.add(
