@@ -74,9 +74,9 @@ onMounted(() => {
 </script>
 <template>
     <!-- Projects container -->
-    <div class="projects-container bg-[#0f172a] hidden">
+    <div class="projects-container bg-[#030521] hidden">
         <button @click="hideProjects" class="contact-close-btn">
-            <XMarkIcon class="h-8 w-7 text-[#5be3d4] mt-1 mr-1" />
+            <XMarkIcon class="h-8 w-7 text-[#00dc82] mt-1 mr-1" />
         </button>
         <div class="max-sm:p-10 md:p-10 lg:p-20 lg:pl-28">
             <h1 class="text-5xl font-bold text-white mt-1 max-sm:text-3xl">All Projects</h1>
@@ -105,7 +105,7 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                        <ul class="flex flex-wrap text-[#00dc82] text-xs">
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
@@ -127,7 +127,7 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                        <ul class="flex flex-wrap text-[#00dc82] text-xs">
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Jquery</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
@@ -148,7 +148,7 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                        <ul class="flex flex-wrap text-[#00dc82] text-xs">
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
@@ -170,7 +170,7 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                        <ul class="flex flex-wrap text-[#00dc82] text-xs">
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
@@ -192,7 +192,7 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                        <ul class="flex flex-wrap text-[#00dc82] text-xs">
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
@@ -214,7 +214,7 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                        <ul class="flex flex-wrap text-[#00dc82] text-xs">
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
@@ -236,7 +236,7 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                        <ul class="flex flex-wrap text-[#00dc82] text-xs">
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
@@ -258,7 +258,7 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Wordtorque</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#5be3d4] text-xs">
+                                        <ul class="flex flex-wrap text-[#00dc82] text-xs">
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
                                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
@@ -276,30 +276,30 @@ onMounted(() => {
     </div>
 
     <!-- Contact container -->
-    <div class="contact-container bg-[#0f172a] hidden">
+    <div class="contact-container bg-[#030521] hidden">
         <button @click="hideContact" class="contact-close-btn">
-            <XMarkIcon class="h-8 w-7 text-[#5be3d4] mt-1 mr-1" />
+            <XMarkIcon class="h-8 w-7 text-[#00dc82] mt-1 mr-1" />
         </button>
         <div class="max-sm:p-10 md:p-10 lg:p-20 lg:pl-28">
             <h1 class="text-5xl font-bold text-white mt-1 mb-5 max-sm:text-3xl">Contact</h1> 
             <form class="mt-10" action="https://getform.io/f/2b950655-3eb4-4650-8b2b-0b74f9dd3d97" method="POST">
                 <div class="grid md:grid-cols-2 md:gap-6">
                     <div class="relative z-0 w-full mb-6 group">
-                        <input type="text" name="name" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
-                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-40020 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+                        <input type="text" name="name" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#00dc82] focus:outline-none focus:ring-0 focus:border-[#00dc82] peer" placeholder=" " required />
+                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-40020 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#00dc82] peer-focus:dark:text-[#00dc82] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
                     </div>
                     <div class="relative z-0 w-full mb-6 group">
-                        <input type="email" name="email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
-                        <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
+                        <input type="email" name="email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#00dc82] focus:outline-none focus:ring-0 focus:border-[#00dc82] peer" placeholder=" " required />
+                        <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#00dc82] peer-focus:dark:text-[#00dc82] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
                     </div>
                 </div>
                 <div class="relative z-0 w-full mb-6 group">
-                    <textarea type="text" name="message" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#5be3d4] focus:outline-none focus:ring-0 focus:border-[#5be3d4] peer" placeholder=" " required />
-                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5be3d4] peer-focus:dark:text-[#5be3d4] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                    <textarea type="text" name="message" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#00dc82] focus:outline-none focus:ring-0 focus:border-[#00dc82] peer" placeholder=" " required />
+                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#00dc82] peer-focus:dark:text-[#00dc82] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
                 </div>
                 
-                <button type="submit" class="flex flex-wrap mt-10 text-[#5be3d4] bg-[#0c1221] font-medium text-sm px-5 py-2.5 text-justify hovered-btn">Shoot
-                    <PaperAirplaneIcon class="absolute-icon h-4 w-5 text-[#5be3d4] mt-0.5 ml-1 transform duration-300" />
+                <button type="submit" class="flex flex-wrap mt-10 text-[#00dc82] bg-[#161835] font-medium text-sm px-5 py-2.5 text-justify hovered-btn">Shoot
+                    <PaperAirplaneIcon class="absolute-icon h-4 w-5 text-[#00dc82] mt-0.5 ml-1 transform duration-300" />
                 </button>
             </form>
 
@@ -314,31 +314,31 @@ onMounted(() => {
     <!-- Index container -->
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
-        <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:p-28">
+        <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:pl-52 lg:pt-20">
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name max-sm:hidden">Jowin Cueto</h1>
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
             <div>
-                <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer at Prolook Sports</h1>
-                <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400">I create the user interface and user experience for a website or web application. I design and implement the visual elements, interactivity, and functionality of the website.</p>
+                <h1 class="text-xl text-slate-200 mt-2"><span class="text-[#00dc82]">Front-End Developer</span> at Prolook Sports</h1>
+                <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
             <!-- <div class="mt-8 max-sm:mb-20">
                 <a href="#" @click.prevent="showContact">
-                    <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4] w-2/2">Shoot me a message
+                    <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82] w-2/2">Shoot me a message
                         <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
                     </p>
                 </a>
             </div> -->
-            <nav class="mt-12 max-md:hidden md:hidden lg:block" id="menu">
+            <nav class="mt-16 max-md:hidden md:hidden lg:block" id="menu">
                 <a href="#section1" id="link1" class="text-slate-500 text-xs font-bold flex flex-wrap nav-link hover:text-slate-200">
                     <div id="link-line-1" class="line mt-2 mr-4"></div>
                     ABOUT
                 </a>
-                <a href="#section2" id="link2" class="text-slate-500 text-xs font-bold flex flex-wrap mt-5 nav-link hover:text-slate-200">
+                <a href="#section2" id="link2" class="text-slate-500 text-xs font-bold flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-2" class="line mt-2 mr-4"></div>
                     EXPERIENCE
                 </a>
-                <a href="#section3" id="link3" class="text-slate-500 text-xs font-bold flex flex-wrap mt-5 nav-link hover:text-slate-200">
+                <a href="#section3" id="link3" class="text-slate-500 text-xs font-bold flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-3" class="line mt-2 mr-4"></div>
                     PROJECTS
                 </a>
@@ -346,10 +346,10 @@ onMounted(() => {
         </div>
 
         <!-- Right Column -->
-        <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-0 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-0 lg:p-28 lg:max-h-auto lg:overflow-y-auto">
+        <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-0 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-0 lg:pr-52 lg:pt-20 lg:max-h-auto lg:overflow-y-auto">
             <div class="max-sm:mt-12">
                 <section id="section0" class="section"></section>
-                <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400 about-heading">ABOUT</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400 about-heading lg:hidden">ABOUT</h1>
                 <section id="section1" class="text-slate-400 text-md section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div>
                         <p>In the years 2014 to 2018, while I was still a student, I developed an interest in web design. I created mockups and converted them into HTML and CSS. I even gave myself the title of a front-end designer. However, as time passed and I entered the workforce, my understanding of front-end development expanded. I realized that it's not just about creating mockups and converting them into HTML and CSS; front-end development also encompasses interactions with data. For instance, you may need to fetch data to dynamically display it on the front-end side of the system.</p>
@@ -358,11 +358,11 @@ onMounted(() => {
                     </div>
                 </section>
 
-                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 exp-heading">EXPERIENCE</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 lg:hidden exp-heading">EXPERIENCE</h1>
                 <section id="section2" class="section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div>
                         <a href="https://www.prolook.com/" target="_blank" class="hovered-btn">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
                                 <span class="text-slate-400 text-xs float-right mt-1 mr-2">2019 - PRESENT -</span>
                                 Prolook Sports
                                 <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
@@ -370,7 +370,7 @@ onMounted(() => {
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
                         <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
-                        <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
+                        <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
@@ -386,7 +386,7 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="https://wordtorque.graxia.dev" target="_blank" class="hovered-btn">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
                                 <span class="text-slate-400 text-xs float-right mt-1 mr-2">2023 -</span>
                                 Wordtorque
                                 <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
@@ -394,7 +394,7 @@ onMounted(() => {
                         </a>
                         <p class="text-slate-600">Part Time - Front-End Developer</p>
                         <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and enhancing the user interface. Ensuring the system is mobile-responsive and easy to navigate.</p>
-                        <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
+                        <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
@@ -412,7 +412,7 @@ onMounted(() => {
                         </a>
                         <p class="text-slate-600">Front-End Developer</p>
                         <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring that the system is responsive and easy to navigate on mobile.</p>
-                        <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
+                        <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
@@ -431,21 +431,21 @@ onMounted(() => {
                         </a>
                         <p class="text-slate-600">Internship Trainee - Front-End Developer</p>
                         <p class="mt-3 text-sm text-slate-400">Responsible for project development, bug fixing, and feature implementation. Ensuring the website is informative, responsive, and easy to navigate on mobile.</p>
-                        <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
+                        <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                             <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Wix (CMS)</li>
                         </ul>
                     </div>
                     <div class="mt-10">
                         <a href="/jmc-resume.pdf" target="_blank" class="hovered-btn">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">View full resume
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">View full resume
                                 <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1 absolute-icon transform duration-300" />
                             </p>
                         </a>
                     </div>
                 </section>
 
-                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 project-heading">PROJECTS</h1>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 lg:hidden project-heading">PROJECTS</h1>
                 <section id="section3" class="mt-6 section transition-opacity duration-2000 ease-in-out opacity-0">
                     <div class="flex">
                         <div class="max-sm:hidden">
@@ -453,12 +453,12 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://customizer.prolook.com/index" target="_blank" class="hovered-btn">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Prolook Customizer 
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Prolook Customizer 
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300"/>
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
-                            <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
@@ -472,12 +472,12 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://prolookteam.com/" target="_blank" class="hovered-btn">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Dick's & Sporting Goods Customizer
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Dick's & Sporting Goods Customizer
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
-                            <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
@@ -491,12 +491,12 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://www.pguniforms.com" target="_blank" class="hovered-btn">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Perfect Game Customizer
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Perfect Game Customizer
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
-                            <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
@@ -510,12 +510,12 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://www.alliteamuniforms.com" target="_blank" class="hovered-btn">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">Alli Customizer
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Alli Customizer
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
-                            <ul class="flex flex-wrap text-[#5be3d4] text-xs mt-2">
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
@@ -525,29 +525,29 @@ onMounted(() => {
                     </div>
                     <div class="mt-10">
                         <a href="#" @click.prevent="showProjects" class="hovered-btn">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#5be3d4]">View full project archive
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">View full project archive
                                 <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1 absolute-icon transform duration-300" />
                             </p>
                         </a>
                     </div>
                 </section>
-                <section class="mt-20 max-sm:mb-10 md:mb-10 lg:mb-0">
+                <section class="mt-20 max-sm:mb-10 max-md:mb-10 lg:pb-20">
                     <div class="text-slate-500 text-sm max-sm:text-xs">
-                        <p>Coded in<a class="text-slate-200 hover:text-[#5be3d4]" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200 hover:text-[#5be3d4]" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200 hover:text-[#5be3d4]" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200 hover:text-[#5be3d4]" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200 hover:text-[#5be3d4]" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font and <a class="text-slate-200 hover:text-[#5be3d4]" href="https://heroicons.com/" target="_blank">Heroicons</a> for icons.</p>
+                        <p>Coded in<a class="text-slate-200 hover:text-[#00dc82]" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200 hover:text-[#00dc82]" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200 hover:text-[#00dc82]" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200 hover:text-[#00dc82]" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200 hover:text-[#00dc82]" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font and <a class="text-slate-200 hover:text-[#00dc82]" href="https://heroicons.com/" target="_blank">Heroicons</a> for icons.</p>
                     </div>
                 </section>
             </div>
         </div>
     </div>
     <div class="fixed flex-col top-[50%] max-sm:top-[75%] max-sm:right-3 lg:left-0">
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221]" @click.prevent="showContact">
-            <PaperAirplaneIcon class="max-sm:h-5 h-6 w-8 text-[#5be3d4] mt-2 mb-2 ml-1" />
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#161835]" @click.prevent="showContact">
+            <PaperAirplaneIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
         </a>
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2" @click.prevent="showProjects">
-            <ArchiveBoxIcon class="max-sm:h-5 h-6 w-8 text-[#5be3d4] mt-2 mb-2 ml-1" />
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#161835] mt-2" @click.prevent="showProjects">
+            <ArchiveBoxIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
         </a>
-        <a href="/jmc-resume.pdf" target="_blank" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2">
-            <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-[#5be3d4] mt-2 mb-2 ml-1" />
+        <a href="/jmc-resume.pdf" target="_blank" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#161835] mt-2">
+            <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
         </a>
     </div>
 </template>
@@ -558,7 +558,7 @@ onMounted(() => {
         left: 0;
         width: 100%;
         height: 100%;
-        background: #0f172a;
+        background: #030521;
         display: flex;
         justify-content: center;
         align-items: center;

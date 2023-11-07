@@ -24,7 +24,7 @@ export function handleIntersect(entries, observer, data) {
                     aboutHeading.classList.remove(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -51,7 +51,7 @@ export function handleIntersect(entries, observer, data) {
                     aboutHeading.classList.add(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -64,7 +64,7 @@ export function handleIntersect(entries, observer, data) {
                     expHeading.classList.remove(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -75,7 +75,7 @@ export function handleIntersect(entries, observer, data) {
                     projectHeading.classList.remove(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -102,7 +102,7 @@ export function handleIntersect(entries, observer, data) {
                     expHeading.classList.add(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -116,7 +116,7 @@ export function handleIntersect(entries, observer, data) {
                     aboutHeading.classList.remove(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -127,7 +127,7 @@ export function handleIntersect(entries, observer, data) {
                     projectHeading.classList.remove(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -154,7 +154,7 @@ export function handleIntersect(entries, observer, data) {
                     projectHeading.classList.add(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -167,7 +167,7 @@ export function handleIntersect(entries, observer, data) {
                     aboutHeading.classList.remove(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
@@ -178,7 +178,7 @@ export function handleIntersect(entries, observer, data) {
                     expHeading.classList.remove(
                         'max-sm:fixed',
                         'max-sm:top-0',
-                        'max-sm:bg-[#0c1221]',
+                        'max-sm:bg-[#161835]',
                         'max-sm:w-full',
                         'max-sm:right-0',
                         'max-sm:pl-10',
