@@ -315,7 +315,7 @@ onMounted(() => {
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:p-28">
-            <h1 class="text-5xl font-extrabold text-white mt-1 my-name max-sm:hidden">JOWIN CUETO</h1>
+            <h1 class="text-5xl font-extrabold text-white mt-1 my-name max-sm:hidden">Jowin Cueto</h1>
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2">Frond-End Developer at Prolook Sports</h1>
@@ -541,13 +541,13 @@ onMounted(() => {
     </div>
     <div class="fixed flex-col top-[50%] max-sm:top-[75%] max-sm:right-3 lg:left-0">
         <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221]" @click.prevent="showContact">
-            <PaperAirplaneIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
+            <PaperAirplaneIcon class="max-sm:h-5 h-6 w-8 text-[#5be3d4] mt-2 mb-2 ml-1" />
         </a>
         <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2" @click.prevent="showProjects">
-            <ArchiveBoxIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
+            <ArchiveBoxIcon class="max-sm:h-5 h-6 w-8 text-[#5be3d4] mt-2 mb-2 ml-1" />
         </a>
         <a href="/jmc-resume.pdf" target="_blank" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#0c1221] mt-2">
-            <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-white mt-2 mb-2 ml-1" />
+            <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-[#5be3d4] mt-2 mb-2 ml-1" />
         </a>
     </div>
 </template>
