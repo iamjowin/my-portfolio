@@ -319,7 +319,7 @@ onMounted(() => {
             <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2"><span class="text-[#00dc82]">Front-End Developer</span> at Prolook Sports</h1>
-                <p class="w-full lg:w-1/1 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
+                <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
             <!-- <div class="mt-8 max-sm:mb-20">
@@ -342,6 +342,10 @@ onMounted(() => {
                     <div id="link-line-3" class="line mt-2 mr-4"></div>
                     PROJECTS
                 </a>
+                <a href="#section4" id="link4" class="text-slate-500 text-xs font-bold flex flex-wrap mt-6 nav-link hover:text-slate-200">
+                    <div id="link-line-4" class="line mt-2 mr-4"></div>
+                    LIBRARIES
+                </a>
             </nav>
         </div>
 
@@ -361,82 +365,98 @@ onMounted(() => {
                 <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 lg:hidden exp-heading">EXPERIENCE</h1>
                 <section id="section2" class="section lg:mt-40">
                     <div>
-                        <a href="https://www.prolook.com/" target="_blank" class="hovered-btn font-400">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
-                                <span class="text-slate-400 text-xs float-right mt-1 mr-2">2019 - PRESENT -</span>
-                                Prolook Sports
-                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
-                            </p>
-                        </a>
-                        <p class="text-slate-600 font-400">Front-End Developer</p>
-                        <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
-                        <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Underscore</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Lodash</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Pinia</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">NPM</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">GIT</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                        </ul>
+                        <div>
+                            <p class="text-slate-500 text-xs mt-1 font-500">2019 - PRESENT</p>
+                        </div>
+                        <div class="lg:ml-40 lg:mt-[-20px]">
+                            <a href="https://www.prolook.com/" target="_blank" class="hovered-btn font-400">
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
+                                    Prolook Sports
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
+                                </p>
+                            </a>
+                            <p class="text-slate-600 font-400">Front-End Developer</p>
+                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Underscore</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Lodash</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Pinia</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">NPM</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">GIT</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="mt-10">
-                        <a href="https://wordtorque.graxia.dev" target="_blank" class="hovered-btn font-400">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
-                                <span class="text-slate-400 text-xs float-right mt-1 mr-2">2023 -</span>
-                                Wordtorque
-                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
-                            </p>
-                        </a>
-                        <p class="text-slate-600 font-400">Part Time - Front-End Developer</p>
-                        <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and enhancing the user interface. Ensuring the system is mobile-responsive and easy to navigate.</p>
-                        <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">GIT</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
-                        </ul>
+                    <div class="mt-16">
+                        <div>
+                            <p class="text-slate-500 text-xs mt-1 font-500">JUNE - AUG 2023</p>
+                        </div>
+                        <div class="lg:ml-40 lg:mt-[-20px]">
+                            <a href="https://wordtorque.graxia.dev" target="_blank" class="hovered-btn font-400">
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
+                                    Wordtorque
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
+                                </p>
+                            </a>
+                            <p class="text-slate-600 font-400">Part Time - Front-End Developer</p>
+                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and enhancing the user interface. Ensuring the system is mobile-responsive and easy to navigate.</p>
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">GIT</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="mt-10">
-                        <a href="#" disabled class="cursor-not-allowed font-400">
-                            <p class="text-slate-500 flex flex-wrap">
-                                <span class="text-slate-400 text-xs float-right mt-1 mr-2">2018 - 2019 -</span>
-                                Codeeric IT Solution
-                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
-                            </p>
-                        </a>
-                        <p class="text-slate-600 font-400">Front-End Developer</p>
-                        <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring that the system is responsive and easy to navigate on mobile.</p>
-                        <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Fabric JS</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">GIT</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
-                        </ul>
+                    <div class="mt-16">
+                        <div>
+                            <p class="text-slate-500 text-xs mt-1 font-500">2018 - 2019</p>
+                        </div>
+                        <div class="lg:ml-40 lg:mt-[-20px]">
+                            <a href="#" disabled class="cursor-not-allowed font-400">
+                                <p class="text-slate-500 flex flex-wrap">
+                                    Codeeric IT Solution
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
+                                </p>
+                            </a>
+                            <p class="text-slate-600 font-400">Front-End Developer</p>
+                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring that the system is responsive and easy to navigate on mobile.</p>
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">CSS</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Fabric JS</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">GIT</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="mt-10">
-                        <a href="#" disabled class="cursor-not-allowed font-400">
-                            <p class="text-slate-500 flex flex-wrap">
-                                <span class="text-slate-400 text-xs float-right mt-1 mr-2">2018 -</span>
-                                La Verdad Christian College
-                                <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
-                            </p>
-                        </a>
-                        <p class="text-slate-600 font-400">Internship Trainee - Front-End Developer</p>
-                        <p class="mt-3 text-sm text-slate-400">Responsible for project development, bug fixing, and feature implementation. Ensuring the website is informative, responsive, and easy to navigate on mobile.</p>
-                        <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
-                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Wix (CMS)</li>
-                        </ul>
+                    <div class="mt-16">
+                        <div>
+                            <p class="text-slate-500 text-xs mt-1 font-500">APRIL - JUNE 2018</p>
+                        </div>
+                        <div class="lg:ml-40 lg:mt-[-20px]">
+                            <a href="#" disabled class="cursor-not-allowed font-400">
+                                <p class="text-slate-500 flex flex-wrap">
+                                    La Verdad Christian College
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
+                                </p>
+                            </a>
+                            <p class="text-slate-600 font-400">Internship Trainee - Front-End Developer</p>
+                            <p class="mt-3 text-sm text-slate-400">Responsible for project development, bug fixing, and feature implementation. Ensuring the website is informative, responsive, and easy to navigate on mobile.</p>
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2">
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Wix (CMS)</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="mt-10">
+                    <div class="mt-12">
                         <a href="/jmc-resume.pdf" target="_blank" class="hovered-btn font-400">
                             <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">View full resume
                                 <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1 absolute-icon transform duration-300" />
@@ -531,22 +551,25 @@ onMounted(() => {
                         </a>
                     </div>
                 </section>
+                <section id="section4" class="section lg:mt-40 max-sm:hidden">
+                    <p class="font-500 text-[#00dc82]">Libraries Coming Soon!</p>
+                </section>
                 <section class="mt-20 max-sm:mb-10 max-md:mb-10 lg:pb-20">
                     <div class="text-slate-500 text-sm max-sm:text-xs">
-                        <p>Coded in<a class="text-slate-200 hover:text-[#00dc82]" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200 hover:text-[#00dc82]" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200 hover:text-[#00dc82]" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200 hover:text-[#00dc82]" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200 hover:text-[#00dc82]" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font and <a class="text-slate-200 hover:text-[#00dc82]" href="https://heroicons.com/" target="_blank">Heroicons</a> for icons.</p>
+                        <p>Coded in<a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font and <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://heroicons.com/" target="_blank">Heroicons</a> for icons.</p>
                     </div>
                 </section>
             </div>
         </div>
     </div>
     <div class="fixed flex-col top-[50%] max-sm:top-[75%] max-sm:right-3 lg:left-0">
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#161835]" @click.prevent="showContact">
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700" @click.prevent="showContact">
             <PaperAirplaneIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
         </a>
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#161835] mt-2" @click.prevent="showProjects">
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 mt-2" @click.prevent="showProjects">
             <ArchiveBoxIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
         </a>
-        <a href="/jmc-resume.pdf" target="_blank" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#161835] mt-2">
+        <a href="/jmc-resume.pdf" target="_blank" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 mt-2">
             <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
         </a>
     </div>
