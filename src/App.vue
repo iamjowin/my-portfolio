@@ -315,10 +315,9 @@ onMounted(() => {
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:pl-52 lg:pt-20">
-            <h1 class="text-5xl font-extrabold text-white mt-1 my-name max-sm:hidden">Jowin Cueto</h1>
-            <h1 class="text-5xl font-extrabold text-white mt-1 my-name lg:hidden md:hidden">JMC</h1>
+            <h1 class="text-5xl font-extrabold text-white mt-1 font-700"><span class="text-[#00dc82]">j</span>mcode.</h1>
             <div>
-                <h1 class="text-xl text-slate-200 mt-2"><span class="text-[#00dc82]">Front-End Developer</span> at Prolook Sports</h1>
+                <h1 class="text-xl text-slate-200 mt-2"><span class="font-500">Front-End Developer</span> at Prolook Sports</h1>
                 <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
@@ -330,19 +329,19 @@ onMounted(() => {
                 </a>
             </div> -->
             <nav class="mt-16 max-md:hidden md:hidden lg:block" id="menu">
-                <a href="#section1" id="link1" class="text-slate-500 text-xs font-bold flex flex-wrap nav-link hover:text-slate-200">
+                <a href="#section1" id="link1" class="text-slate-500 text-xs font-700 flex flex-wrap nav-link hover:text-slate-200">
                     <div id="link-line-1" class="line mt-2 mr-4"></div>
                     ABOUT
                 </a>
-                <a href="#section2" id="link2" class="text-slate-500 text-xs font-bold flex flex-wrap mt-6 nav-link hover:text-slate-200">
+                <a href="#section2" id="link2" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-2" class="line mt-2 mr-4"></div>
                     EXPERIENCE
                 </a>
-                <a href="#section3" id="link3" class="text-slate-500 text-xs font-bold flex flex-wrap mt-6 nav-link hover:text-slate-200">
+                <a href="#section3" id="link3" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-3" class="line mt-2 mr-4"></div>
                     PROJECTS
                 </a>
-                <a href="#section4" id="link4" class="text-slate-500 text-xs font-bold flex flex-wrap mt-6 nav-link hover:text-slate-200">
+                <a href="#section4" id="link4" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-4" class="line mt-2 mr-4"></div>
                     LIBRARIES
                 </a>
