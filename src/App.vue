@@ -375,7 +375,7 @@ onMounted(() => {
                                 </p>
                             </a>
                             <p class="text-slate-600 font-400">Front-End Developer</p>
-                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
+                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200 font-400" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
                             <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">HTML</li>
