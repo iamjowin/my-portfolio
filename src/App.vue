@@ -74,7 +74,7 @@ onMounted(() => {
 </script>
 <template>
     <!-- Projects container -->
-    <div class="projects-container bg-[#030521] hidden">
+    <div class="projects-container bg-[#10151d] hidden">
         <button @click="hideProjects" class="contact-close-btn">
             <XMarkIcon class="h-8 w-7 text-[#00dc82] mt-1 mr-1" />
         </button>
@@ -276,7 +276,7 @@ onMounted(() => {
     </div>
 
     <!-- Contact container -->
-    <div class="contact-container bg-[#030521] hidden">
+    <div class="contact-container bg-[#10151d] hidden">
         <button @click="hideContact" class="contact-close-btn">
             <XMarkIcon class="h-8 w-7 text-[#00dc82] mt-1 mr-1" />
         </button>
@@ -580,7 +580,7 @@ onMounted(() => {
         left: 0;
         width: 100%;
         height: 100%;
-        background: #030521;
+        background: #10151d;
         display: flex;
         justify-content: center;
         align-items: center;
