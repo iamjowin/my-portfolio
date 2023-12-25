@@ -1,6 +1,5 @@
 <script setup>
 import SocialNav from './components/social-nav.vue'
-import { RouterLink, RouterView } from 'vue-router'
 import { usePorfolioStore } from './stores/data'
 import { handleIntersect } from './plugins/observer'
 import { handleClickScroll } from './plugins/scroll'
@@ -10,7 +9,6 @@ import {
     ArrowRightIcon, 
     XMarkIcon, 
     PaperAirplaneIcon, 
-    ChatBubbleOvalLeftEllipsisIcon,
     ArchiveBoxIcon,
     DocumentTextIcon 
 } from '@heroicons/vue/24/outline'
