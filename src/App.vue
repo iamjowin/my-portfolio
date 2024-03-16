@@ -341,7 +341,7 @@ onMounted(() => {
                 </a>
                 <a href="#section4" id="link4" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-4" class="line mt-2 mr-4"></div>
-                    LIBRARIES
+                    SKILLS
                 </a>
             </nav>
         </div>
@@ -549,7 +549,77 @@ onMounted(() => {
                     </div>
                 </section>
                 <section id="section4" class="section lg:mt-40 max-sm:hidden">
-                    <p class="font-500 text-[#00dc82]">Libraries Coming Soon!</p>
+                    <!-- <p class="font-500 text-[#00dc82]">Libraries Coming Soon!</p> -->
+                    <div class="container mx-auto">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6">
+                            <!-- Image 1 -->
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/vue1.jpg" alt="Image 1" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 80%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Image 2 -->
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/react1.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Image 3 -->
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/javascript.png" alt="Image 3" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 80%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more images as needed -->
+                             <!-- Image 1 -->
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/html.png" alt="Image 1" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 80%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Image 2 -->
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/css.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 70%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/ts.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section class="mt-20 max-sm:mb-10 max-md:mb-10 lg:pb-20">
                     <div class="text-slate-500 text-sm max-sm:text-xs">
