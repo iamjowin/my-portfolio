@@ -319,13 +319,16 @@ onMounted(() => {
                 <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
-            <!-- <div class="mt-8 max-sm:mb-20">
-                <a href="#" @click.prevent="showContact">
-                    <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82] w-2/2">Shoot me a message
-                        <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1" />
-                    </p>
+            <div class="mt-8 max-sm:mb-20">
+                <button class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center" @click.prevent="showContact">
+                    <PaperAirplaneIcon class="max-sm:h-5 h-6 text-[#00dc82] mr-2"/>
+                    <span>Message</span>
+                </button>
+                <a href="/jmc-resume.pdf" target="_blank" class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center ml-2">
+                    <DocumentTextIcon class="max-sm:h-5 h-6 text-[#00dc82] mr-2"/>
+                    <span>Resume</span>
                 </a>
-            </div> -->
+            </div>
             <nav class="mt-16 max-md:hidden md:hidden lg:block" id="menu">
                 <a href="#section1" id="link1" class="text-slate-500 text-xs font-700 flex flex-wrap nav-link hover:text-slate-200">
                     <div id="link-line-1" class="line mt-2 mr-4"></div>
@@ -629,7 +632,7 @@ onMounted(() => {
             </div>
         </div>
     </div>
-    <div class="fixed flex-col top-[50%] max-sm:top-[75%] max-sm:right-3 lg:left-0">
+    <!-- <div class="fixed flex-col top-[50%] max-sm:top-[75%] max-sm:right-3 lg:left-0">
         <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg" @click.prevent="showContact">
             <PaperAirplaneIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
         </a>
@@ -639,7 +642,7 @@ onMounted(() => {
         <a href="/jmc-resume.pdf" target="_blank" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 mt-2 rounded-r-lg">
             <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
         </a>
-    </div>
+    </div> -->
 </template>
 <style>
     .loading-container {
