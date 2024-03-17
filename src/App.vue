@@ -320,11 +320,11 @@ onMounted(() => {
             </div>
             <SocialNav />
             <div class="mt-8 max-sm:mb-20">
-                <button class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center" @click.prevent="showContact">
+                <button class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center hover:bg-[#0f1010] transform duration-300" @click.prevent="showContact">
                     <PaperAirplaneIcon class="max-sm:h-5 h-6 text-[#00dc82] mr-2"/>
                     <span>Message</span>
                 </button>
-                <a href="/jmc-resume.pdf" target="_blank" class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center ml-2">
+                <a href="/jmc-resume.pdf" target="_blank" class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center ml-2 hover:bg-[#0f1010] transform duration-300">
                     <DocumentTextIcon class="max-sm:h-5 h-6 text-[#00dc82] mr-2"/>
                     <span>Resume</span>
                 </a>
@@ -617,6 +617,66 @@ onMounted(() => {
                                     <div class="relative pt-1">
                                         <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
                                             <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/git1.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/npm.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 50%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/docker.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 20%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/jquery.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 70%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/laravel.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded-lg shadow-md p-4">
+                                <img src="/graphql.png" alt="Image 2" class="w-full h-auto rounded-lg">
+                                <div class="mt-4">
+                                    <div class="relative pt-1">
+                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                                            <div style="width: 20%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
                                         </div>
                                     </div>
                                 </div>
