@@ -10,7 +10,8 @@ import {
     XMarkIcon, 
     PaperAirplaneIcon, 
     ArchiveBoxIcon,
-    DocumentTextIcon 
+    DocumentTextIcon,
+    ChatBubbleBottomCenterTextIcon 
 } from '@heroicons/vue/24/outline'
 import { onMounted } from 'vue'
 
@@ -320,12 +321,12 @@ onMounted(() => {
             </div>
             <SocialNav />
             <div class="mt-8 max-sm:mb-20">
-                <button class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center hover:bg-[#0f1010] transform duration-300" @click.prevent="showContact">
-                    <PaperAirplaneIcon class="max-sm:h-5 h-6 text-[#00dc82] mr-2"/>
+                <button class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center hover:bg-[#0f1010] transform duration-300 text-sm" @click.prevent="showContact">
+                    <ChatBubbleBottomCenterTextIcon class="max-sm:h-5 h-5 text-[#00dc82] mr-2"/>
                     <span>Message</span>
                 </button>
-                <a href="/jmc-resume.pdf" target="_blank" class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center ml-2 hover:bg-[#0f1010] transform duration-300">
-                    <DocumentTextIcon class="max-sm:h-5 h-6 text-[#00dc82] mr-2"/>
+                <a href="/jmc-resume.pdf" target="_blank" class="bg-[#1f2937] text-[#00dc82] py-2 px-4 rounded inline-flex items-center ml-2 hover:bg-[#0f1010] transform duration-300 text-sm">
+                    <DocumentTextIcon class="max-sm:h-5 h-5 text-[#00dc82] mr-2"/>
                     <span>Resume</span>
                 </a>
             </div>
