@@ -313,7 +313,7 @@ onMounted(() => {
     <!-- Index container -->
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
-        <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:p-10 sm:p-10 md:p-10 lg:pl-52 lg:pt-20">
+        <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:pb-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-52 lg:pt-20">
             <h1 class="text-5xl font-extrabold text-white mt-1 font-700"><span class="text-[#00dc82]">j</span>mcode.</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2"><span class="font-500">Front-End Developer</span> at Prolook Sports</h1>
@@ -553,137 +553,7 @@ onMounted(() => {
                     </div>
                 </section>
                 <section id="section4" class="section lg:mt-40 max-sm:hidden">
-                    <!-- <p class="font-500 text-[#00dc82]">Libraries Coming Soon!</p> -->
-                    <div class="container mx-auto">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6">
-                            <!-- Image 1 -->
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/vue1.jpg" alt="Image 1" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 80%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Image 2 -->
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/react1.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Image 3 -->
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/javascript.png" alt="Image 3" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 80%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Add more images as needed -->
-                             <!-- Image 1 -->
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/html.png" alt="Image 1" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 80%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Image 2 -->
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/css.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 70%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/ts.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/git1.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/npm.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 50%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/docker.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 20%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/jquery.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 70%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/laravel.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 40%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rounded-lg shadow-md p-4">
-                                <img src="/graphql.png" alt="Image 2" class="w-full h-auto rounded-lg">
-                                <div class="mt-4">
-                                    <div class="relative pt-1">
-                                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
-                                            <div style="width: 20%;" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#00dc82]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="font-500 text-[#00dc82]">Skills Coming Soon!</p>
                 </section>
                 <section class="mt-20 max-sm:mb-10 max-md:mb-10 lg:pb-20">
                     <div class="text-slate-500 text-sm max-sm:text-xs">
