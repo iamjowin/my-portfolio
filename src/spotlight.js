@@ -1,5 +1,10 @@
+function isLaptopOrDesktop() {
+    return window.innerWidth > 1024;
+}
+
 //DOM load event
 window.addEventListener("load", () => {
+    if (!isLaptopOrDesktop()) return;
 
     const spotlight = document.querySelector('.spotlight');
     let spotlightSize = 'transparent 20%, rgba(0, 0, 0, 0.7) 30%';
