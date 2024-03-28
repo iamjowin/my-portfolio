@@ -567,7 +567,7 @@ onMounted(() => {
         <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg mb-2" @click.prevent="showContact">
             <ChatBubbleBottomCenterTextIcon class="max-sm:h-8 h-5 w-8 text-[#00dc82] mt-2 mb-2 ml-2" />
         </a>
-        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg" @click.prevent="showContact">
+        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg">
             <DocumentTextIcon class="max-sm:h-8 h-5 w-8 text-[#00dc82] mt-2 mb-2 ml-2" />
         </a>
     </div>
