@@ -320,7 +320,7 @@ onMounted(() => {
                 <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
-            <div class="mt-8 max-sm:mb-20 font-400">
+            <div class="mt-8 max-sm:mb-20 font-400 max-sm:hidden">
                 <button class="bg-[#1f2937] text-[#00dc82] py-3 px-6 rounded-md inline-flex items-center hover:bg-[#0f1010] transform duration-300 text-sm" @click.prevent="showContact">
                     <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-6 text-[#00dc82] mr-2"/>
                     <span>Message</span>
@@ -351,7 +351,7 @@ onMounted(() => {
         </div>
 
         <!-- Right Column -->
-        <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-0 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-0 lg:pr-52 lg:pt-20 lg:max-h-auto lg:overflow-y-auto">
+        <div class="lg:w-1/2 h-full flex flex-col max-sm:pt-10 md:pt-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-0 lg:pr-52 lg:pt-20 lg:max-h-auto lg:overflow-y-auto">
             <div class="max-sm:mt-12">
                 <section id="section0" class="section"></section>
                 <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400 about-heading lg:hidden">ABOUT</h1>
@@ -563,16 +563,13 @@ onMounted(() => {
             </div>
         </div>
     </div>
-    <div class="fixed flex-col top-[50%] max-sm:top-[90%] max-sm:right-6 lg:left-0 lg:hidden">
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg" @click.prevent="showContact">
+    <div class="fixed flex-col top-[50%] max-sm:top-[80%] max-sm:right-6 lg:left-0 lg:hidden">
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg mb-2" @click.prevent="showContact">
             <ChatBubbleBottomCenterTextIcon class="max-sm:h-8 h-5 w-8 text-[#00dc82] mt-2 mb-2 ml-2" />
         </a>
-        <!-- <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 mt-2 rounded-r-lg" @click.prevent="showProjects">
-            <ArchiveBoxIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
+        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg" @click.prevent="showContact">
+            <DocumentTextIcon class="max-sm:h-8 h-5 w-8 text-[#00dc82] mt-2 mb-2 ml-2" />
         </a>
-        <a href="/jmc-resume.pdf" target="_blank" class="lg:w-[40px] h-[40px] max-sm:h-[40px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 mt-2 rounded-r-lg">
-            <DocumentTextIcon class="max-sm:h-5 h-6 w-8 text-[#00dc82] mt-2 mb-2 ml-1" />
-        </a> -->
     </div>
 </template>
 <style>
