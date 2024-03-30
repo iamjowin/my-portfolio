@@ -321,12 +321,12 @@ onMounted(() => {
             </div>
             <SocialNav />
             <div class="mt-8 max-sm:mb-20 font-400 max-sm:hidden">
-                <button class="bg-[#1f2937] text-[#00dc82] py-3 px-6 rounded-md inline-flex items-center hover:bg-[#0f1010] transform duration-300 text-sm" @click.prevent="showContact">
-                    <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-6 text-[#00dc82] mr-2"/>
+                <button class="border border-slate-700 text-[#fff] py-3 px-6 rounded-md inline-flex items-center hover:bg-[#0f1010] transform duration-300 text-sm" @click.prevent="showContact">
+                    <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-6 text-[#fff] mr-2"/>
                     <span>Message</span>
                 </button>
-                <a href="/jmc-resume.pdf" target="_blank" class="bg-[#1f2937] text-[#00dc82] py-3 px-6 rounded-md inline-flex items-center ml-2 hover:bg-[#0f1010] transform duration-300 text-sm">
-                    <DocumentTextIcon class="max-sm:h-5 h-6 text-[#00dc82] mr-2"/>
+                <a href="/jmc-resume.pdf" target="_blank" class="border border-slate-700 text-[#fff] py-3 px-6 rounded-md inline-flex items-center ml-2 hover:bg-[#0f1010] transform duration-300 text-sm">
+                    <DocumentTextIcon class="max-sm:h-5 h-6 text-[#fff] mr-2"/>
                     <span>Resume</span>
                 </a>
             </div>
@@ -377,7 +377,7 @@ onMounted(() => {
                                 </p>
                             </a>
                             <p class="text-slate-600 font-400">Front-End Developer</p>
-                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200 font-400" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
+                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
                             <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">HTML</li>
