@@ -572,9 +572,9 @@ onMounted(() => {
                             </ul>
                         </div>
                     </div>
-                    <div class="flex mt-16">
+                    <div class="flex mt-16 ml-2">
                         <div class="max-sm:hidden">
-                            <img src="/sass-logo.svg" width="150" height="48" class="rounded-sm"/>
+                            <img src="/sass-logo-2.png" width="112" height="48" class="rounded-sm"/>
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://customizer.prolook.com/index" target="_blank" class="hovered-btn font-400">
