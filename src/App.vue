@@ -345,7 +345,7 @@ onMounted(() => {
                 </a>
                 <a href="#section4" id="link4" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-4" class="line mt-2 mr-4"></div>
-                    SKILLS
+                    OTHER SKILLS
                 </a>
             </nav>
         </div>
@@ -552,8 +552,43 @@ onMounted(() => {
                         </a>
                     </div>
                 </section>
-                <section id="section4" class="section lg:mt-40 max-sm:hidden">
-                    <p class="font-500 text-[#00dc82]">Skills Coming Soon!</p>
+                <section id="section4" class="mt-6 section lg:mt-40">
+                    <div class="flex">
+                        <div class="max-sm:hidden">
+                            <img src="/figma-logo.png" width="200" height="48" class="rounded-sm"/>
+                        </div>
+                        <div class="ml-4 max-sm:ml-0">
+                            <a href="https://customizer.prolook.com/index" target="_blank" class="hovered-btn font-400">
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Figma 
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300"/>
+                                </p>
+                            </a>
+                            <p class="text-sm mt-2 text-slate-400">I used Figma when I transitioned from being a front-end to a UI/UX designer. My knowledge of Figma wasn't extensive yet, but I was already able to contribute my designs to real projects. Currently, I continue to broaden my knowledge in this technology while I am in the UI/UX team.</p>
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Components</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Variants</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Auto Layout</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Constraints</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex mt-16">
+                        <div class="max-sm:hidden">
+                            <img src="/sass-logo.svg" width="150" height="48" class="rounded-sm"/>
+                        </div>
+                        <div class="ml-4 max-sm:ml-0">
+                            <a href="https://customizer.prolook.com/index" target="_blank" class="hovered-btn font-400">
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Sass
+                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300"/>
+                                </p>
+                            </a>
+                            <p class="text-sm mt-2 text-slate-400">I utilized Sass more when I transitioned to the UI/UX team, and I have been able to contribute to projects using this stack as well. Currently, I continue to enhance my skills in it while I am in the UI/UX team.</p>
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Variables</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Nesting</li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
                 <section class="mt-20 max-sm:mb-10 max-md:mb-10 lg:pb-20">
                     <div class="text-slate-500 text-sm max-sm:text-xs">
