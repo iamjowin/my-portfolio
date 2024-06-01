@@ -586,6 +586,7 @@ onMounted(() => {
                             <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Variables</li>
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Nesting</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Mixins</li>
                             </ul>
                         </div>
                     </div>
