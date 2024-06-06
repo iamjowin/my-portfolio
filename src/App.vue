@@ -347,6 +347,10 @@ onMounted(() => {
                     <div id="link-line-4" class="line mt-2 mr-4"></div>
                     OTHER SKILLS
                 </a>
+                <a href="#section5" id="link5" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
+                    <div id="link-line-5" class="line mt-2 mr-4"></div>
+                    SEMINARS
+                </a>
             </nav>
         </div>
 
@@ -552,6 +556,7 @@ onMounted(() => {
                         </a>
                     </div>
                 </section>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 lg:hidden other-skills-heading">OTHER SKILLS</h1>
                 <section id="section4" class="mt-6 section lg:mt-40">
                     <div class="flex">
                         <div class="max-sm:hidden">
@@ -587,6 +592,31 @@ onMounted(() => {
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Variables</li>
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Nesting</li>
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Mixins</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 lg:hidden seminar-heading">SEMINARS</h1>
+                <section id="section5" class="section lg:mt-40">
+                    <div>
+                        <div>
+                            <p class="text-slate-500 text-xs mt-1 font-500">JUNE 2, 2024</p>
+                        </div>
+                        <div class="lg:ml-40 lg:mt-[-20px]">
+                            <div class="hovered-btn font-400">
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
+                                    UI/UX DESIGN USING FIGMA
+                                    <!-- <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" /> -->
+                                </p>
+                            </div>
+                            <p class="text-slate-600 text-sm font-400">MSCONNECT PH</p>
+                            <p class="mt-3 text-sm text-slate-400">UI & UX Design using FIGMA from Scratch to Project Handover, a hands-on workshop for beginners by a Graphic Design Specialist, Google Digital Marketing Certified, Creative Writer, and a Professional Information Technology Instructor.</p>
+                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">UCD</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Low Fidelity</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Mid Fidelity</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">High Fidelity</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">FigJam Flow</li>
                             </ul>
                         </div>
                     </div>
