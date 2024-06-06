@@ -320,7 +320,7 @@ onMounted(() => {
                 <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
-            <div class="mt-8 max-sm:mb-20 font-400 max-sm:hidden">
+            <div class="mt-7 max-sm:mb-20 font-400 max-sm:hidden">
                 <button class="text-[#000] py-2 px-6 rounded-full inline-flex items-center bg-[#00dc82] hover:bg-[#06c879] transform duration-300 text-sm" @click.prevent="showContact">
                     <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-5 text-[#000] mr-2"/>
                     <span>Message</span>
