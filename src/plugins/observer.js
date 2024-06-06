@@ -7,19 +7,16 @@ export function handleIntersect(entries, observer, data) {
             const link2 = document.querySelector('#link2');
             const link3 = document.querySelector('#link3');
             const link4 = document.querySelector('#link4');
-            const link5 = document.querySelector('#link5');
 
             const line1 = document.querySelector('#link-line-1');
             const line2 = document.querySelector('#link-line-2');
             const line3 = document.querySelector('#link-line-3');
             const line4 = document.querySelector('#link-line-4');
-            const line5 = document.querySelector('#link-line-5');
 
             const aboutHeading = document.querySelector('.about-heading')
             const expHeading = document.querySelector('.exp-heading')
             const projectHeading = document.querySelector('.project-heading')
             const seminarHeading = document.querySelector('.seminar-heading')
-            const otherSkillsHeading = document.querySelector('.other-skills-heading')
 
             const section1 = document.querySelector('#section1');
             const section2 = document.querySelector('#section2');
@@ -45,14 +42,11 @@ export function handleIntersect(entries, observer, data) {
                 link2.classList.remove('active-link')
                 link3.classList.remove('active-link')
                 link4.classList.remove('active-link')
-                link5.classList.remove('active-link')
 
                 line1.classList.add('line-width');
                 line2.classList.remove('line-width')
                 line3.classList.remove('line-width')
                 line4.classList.remove('line-width')
-                link5.classList.remove('line-width')
-
 
                 // section1.classList.remove('opacity-0')
                 // section2.classList.add('opacity-0')
@@ -101,14 +95,11 @@ export function handleIntersect(entries, observer, data) {
                 link1.classList.remove('active-link')
                 link3.classList.remove('active-link')
                 link4.classList.remove('active-link')
-                link5.classList.remove('active-link')
 
                 line2.classList.add('line-width')
                 line1.classList.remove('line-width');
                 line3.classList.remove('line-width')
                 line4.classList.remove('line-width')
-                link5.classList.remove('line-width')
-
 
                 // section2.classList.remove('opacity-0')
                 // section1.classList.add('opacity-0')
@@ -158,14 +149,11 @@ export function handleIntersect(entries, observer, data) {
                 link1.classList.remove('active-link')
                 link2.classList.remove('active-link')
                 link4.classList.remove('active-link')
-                link5.classList.remove('active-link')
 
                 line3.classList.add('line-width')
                 line1.classList.remove('line-width');
                 line2.classList.remove('line-width')
                 line4.classList.remove('line-width')
-                link5.classList.remove('line-width')
-
 
                 // section3.classList.remove('opacity-0')
                 // section1.classList.add('opacity-0')
@@ -214,71 +202,12 @@ export function handleIntersect(entries, observer, data) {
                 link1.classList.remove('active-link')
                 link2.classList.remove('active-link')
                 link3.classList.remove('active-link')
-                link5.classList.remove('active-link')
 
                 line4.classList.add('line-width')
                 line1.classList.remove('line-width');
                 line2.classList.remove('line-width')
                 line3.classList.remove('line-width')
-                link5.classList.remove('line-width')
-                
 
-
-                // section3.classList.remove('opacity-0')
-                // section1.classList.add('opacity-0')
-                // section2.classList.add('opacity-0')
-
-                if (window.innerWidth <= 768) {
-                    projectHeading.classList.add(
-                        'max-sm:fixed',
-                        'max-sm:top-0',
-                        'max-sm:bg-[#0b0f14]',
-                        'max-sm:w-full',
-                        'max-sm:right-0',
-                        'max-sm:pl-10',
-                        'max-sm:pt-1',
-                        'max-sm:pb-1'
-                    );
-
-                    projectHeading.classList.remove('mt-28')
-                    otherSkillsHeading.classList.add('mt-28')
-    
-                    aboutHeading.classList.remove(
-                        'max-sm:fixed',
-                        'max-sm:top-0',
-                        'max-sm:bg-[#0b0f14]',
-                        'max-sm:w-full',
-                        'max-sm:right-0',
-                        'max-sm:pl-10',
-                        'max-sm:pt-1',
-                        'max-sm:pb-1'
-                    );
-    
-                    otherSkillsHeading.classList.remove(
-                        'max-sm:fixed',
-                        'max-sm:top-0',
-                        'max-sm:bg-[#0b0f14]',
-                        'max-sm:w-full',
-                        'max-sm:right-0',
-                        'max-sm:pl-10',
-                        'max-sm:pt-1',
-                        'max-sm:pb-1'
-                    );
-                }
-            }
-
-            if (targetId === 'section5') {
-                link5.classList.add('active-link')
-                link4.classList.remove('active-link')
-                link1.classList.remove('active-link')
-                link2.classList.remove('active-link')
-                link3.classList.remove('active-link')
-
-                line5.classList.add('line-width')
-                line1.classList.remove('line-width');
-                line2.classList.remove('line-width')
-                line3.classList.remove('line-width')
-                line4.classList.remove('line-width')
 
                 // section3.classList.remove('opacity-0')
                 // section1.classList.add('opacity-0')

@@ -321,12 +321,12 @@ onMounted(() => {
             </div>
             <SocialNav />
             <div class="mt-8 max-sm:mb-20 font-400 max-sm:hidden">
-                <button class="border border-slate-700 text-[#fff] py-3 px-6 rounded-md inline-flex items-center hover:bg-[#0f1010] transform duration-300 text-sm" @click.prevent="showContact">
-                    <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-6 text-[#fff] mr-2"/>
+                <button class="text-[#000] py-2 px-6 rounded-full inline-flex items-center bg-[#00dc82] hover:bg-[#06c879] transform duration-300 text-sm" @click.prevent="showContact">
+                    <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-5 text-[#000] mr-2"/>
                     <span>Message</span>
                 </button>
-                <a href="/jmc-resume.pdf" target="_blank" class="border border-slate-700 text-[#fff] py-3 px-6 rounded-md inline-flex items-center ml-2 hover:bg-[#0f1010] transform duration-300 text-sm">
-                    <DocumentTextIcon class="max-sm:h-5 h-6 text-[#fff] mr-2"/>
+                <a href="/jmc-resume.pdf" target="_blank" class="border border-slate-800 text-[#fff] py-2 px-6 rounded-full inline-flex items-center ml-2 hover:bg-[#0f1010] transform duration-300 text-sm">
+                    <DocumentTextIcon class="max-sm:h-5 h-5 text-[#fff] mr-2"/>
                     <span>Resume</span>
                 </a>
             </div>
@@ -345,10 +345,6 @@ onMounted(() => {
                 </a>
                 <a href="#section4" id="link4" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-4" class="line mt-2 mr-4"></div>
-                    OTHER SKILLS
-                </a>
-                <a href="#section5" id="link5" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
-                    <div id="link-line-5" class="line mt-2 mr-4"></div>
                     SEMINARS
                 </a>
             </nav>
@@ -380,7 +376,7 @@ onMounted(() => {
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
-                            <p class="text-slate-600 font-400">Front-End Developer</p>
+                            <p class="text-slate-600 font-400 text-sm">Front-End Developer</p>
                             <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
                             <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
@@ -408,7 +404,7 @@ onMounted(() => {
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
-                            <p class="text-slate-600 font-400">Part Time - Front-End Developer</p>
+                            <p class="text-slate-600 font-400 text-sm">Part Time - Front-End Developer</p>
                             <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and enhancing the user interface. Ensuring the system is mobile-responsive and easy to navigate.</p>
                             <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
@@ -430,7 +426,7 @@ onMounted(() => {
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
-                            <p class="text-slate-600 font-400">Front-End Developer</p>
+                            <p class="text-slate-600 font-400 text-sm">Front-End Developer</p>
                             <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring that the system is responsive and easy to navigate on mobile.</p>
                             <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
@@ -453,7 +449,7 @@ onMounted(() => {
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1" />
                                 </p>
                             </a>
-                            <p class="text-slate-600 font-400">Internship Trainee - Front-End Developer</p>
+                            <p class="text-slate-600 font-400 text-sm">Internship Trainee - Front-End Developer</p>
                             <p class="mt-3 text-sm text-slate-400">Responsible for project development, bug fixing, and feature implementation. Ensuring the website is informative, responsive, and easy to navigate on mobile.</p>
                             <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
@@ -556,48 +552,8 @@ onMounted(() => {
                         </a>
                     </div>
                 </section>
-                <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 lg:hidden other-skills-heading">OTHER SKILLS</h1>
-                <section id="section4" class="mt-6 section lg:mt-40">
-                    <div class="flex">
-                        <div class="max-sm:hidden">
-                            <img src="/figma-logo.png" width="200" height="48" class="rounded-sm"/>
-                        </div>
-                        <div class="ml-4 max-sm:ml-0">
-                            <a href="https://customizer.prolook.com/index" target="_blank" class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Figma 
-                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300"/>
-                                </p>
-                            </a>
-                            <p class="text-sm mt-2 text-slate-400">I used Figma when I transitioned from being a front-end to a UI/UX designer. My knowledge of Figma wasn't extensive yet, but I was already able to contribute my designs to real projects. Currently, I continue to broaden my knowledge in this technology while I am in the UI/UX team.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Components</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Variants</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Auto Layout</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Constraints</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="flex mt-16 ml-3">
-                        <div class="max-sm:hidden">
-                            <img src="/sass-logo-2.png" width="110" height="48" class="rounded-sm"/>
-                        </div>
-                        <div class="ml-4 max-sm:ml-0">
-                            <a href="https://customizer.prolook.com/index" target="_blank" class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Sass
-                                    <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300"/>
-                                </p>
-                            </a>
-                            <p class="text-sm mt-2 text-slate-400">I utilized Sass more when I transitioned to the UI/UX team, and I have been able to contribute to projects using this stack as well. Currently, I continue to enhance my skills in it while I am in the UI/UX team.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Variables</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Nesting</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Mixins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
                 <h1 class="text-xl font-bold mb-4 text-slate-700 lg:mt-28 max-sm:text-slate-200 max-md:text-slate-400 lg:hidden seminar-heading">SEMINARS</h1>
-                <section id="section5" class="section lg:mt-40">
+                <section id="section4" class="section lg:mt-40">
                     <div>
                         <div>
                             <p class="text-slate-500 text-xs mt-1 font-500">JUNE 2, 2024</p>
@@ -605,14 +561,14 @@ onMounted(() => {
                         <div class="lg:ml-40 lg:mt-[-20px]">
                             <div class="hovered-btn font-400">
                                 <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
-                                    UI/UX DESIGN USING FIGMA
+                                    UI/UX Figma Design
                                     <!-- <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" /> -->
                                 </p>
                             </div>
                             <p class="text-slate-600 text-sm font-400">MSCONNECT PH</p>
                             <p class="mt-3 text-sm text-slate-400">UI & UX Design using FIGMA from Scratch to Project Handover, a hands-on workshop for beginners by a Graphic Design Specialist, Google Digital Marketing Certified, Creative Writer, and a Professional Information Technology Instructor.</p>
                             <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">UCD</li>
+                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">User Centered Design</li>
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Low Fidelity</li>
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Mid Fidelity</li>
                                 <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">High Fidelity</li>
