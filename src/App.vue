@@ -73,9 +73,9 @@ onMounted(() => {
 </script>
 <template>
     <!-- Projects container -->
-    <div class="projects-container bg-[#10151d] hidden">
+    <div class="projects-container bg-[#1b1b3b] hidden">
         <button @click="hideProjects" class="contact-close-btn">
-            <XMarkIcon class="h-8 w-7 text-[#00dc82] mt-1 mr-1" />
+            <XMarkIcon class="h-8 w-7 text-[#1cb76f] mt-1 mr-1" />
         </button>
         <div class="max-sm:p-10 md:p-10 lg:p-20 lg:pl-28">
             <h1 class="text-4xl font-bold text-white mt-1 max-sm:text-3xl">All Projects</h1>
@@ -104,11 +104,11 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#00dc82] text-xs font-400">
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        <ul class="flex flex-wrap text-[#1cb76f] text-xs font-400">
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
@@ -126,10 +126,10 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#00dc82] text-xs font-400">
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Jquery</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        <ul class="flex flex-wrap text-[#1cb76f] text-xs font-400">
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Bootstrap</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Jquery</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
@@ -147,11 +147,11 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#00dc82] text-xs font-400">
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        <ul class="flex flex-wrap text-[#1cb76f] text-xs font-400">
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
@@ -169,11 +169,11 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#00dc82] text-xs font-400">
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        <ul class="flex flex-wrap text-[#1cb76f] text-xs font-400">
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
@@ -191,11 +191,11 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#00dc82] text-xs font-400">
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        <ul class="flex flex-wrap text-[#1cb76f] text-xs font-400">
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
@@ -213,11 +213,11 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#00dc82] text-xs font-400">
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        <ul class="flex flex-wrap text-[#1cb76f] text-xs font-400">
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
@@ -235,11 +235,11 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Prolook Sports</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#00dc82] text-xs font-400">
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Vue JS</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">TypeScript</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Uikit</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        <ul class="flex flex-wrap text-[#1cb76f] text-xs font-400">
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
@@ -257,9 +257,9 @@ onMounted(() => {
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500">Wordtorque</td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4">
-                                        <ul class="flex flex-wrap text-[#00dc82] text-xs font-400">
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">Bootstrap</li>
-                                            <li class="bg-slate-700 p-1.5 rounded-full mr-2 mt-2">JavaScript</li>
+                                        <ul class="flex flex-wrap text-[#1cb76f] text-xs font-400">
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Bootstrap</li>
+                                            <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
                                         </ul>
                                     </td>
                                     <td class="md:hidden max-sm:hidden max-md:hidden lg:table-cell px-6 py-4 text-slate-500 font-bold">
@@ -275,30 +275,30 @@ onMounted(() => {
     </div>
 
     <!-- Contact container -->
-    <div class="contact-container bg-[#10151d] hidden">
+    <div class="contact-container bg-[#1b1b3b] hidden">
         <button @click="hideContact" class="contact-close-btn">
-            <XMarkIcon class="h-8 w-7 text-[#00dc82] mt-1 mr-1" />
+            <XMarkIcon class="h-8 w-7 text-[#1cb76f] mt-1 mr-1" />
         </button>
         <div class="max-sm:p-10 md:p-10 lg:p-20 lg:pl-28">
             <h1 class="text-4xl font-bold text-white mt-1 mb-5 max-sm:text-3xl">Contact</h1> 
             <form class="mt-10" action="https://getform.io/f/2b950655-3eb4-4650-8b2b-0b74f9dd3d97" method="POST">
                 <div class="grid md:grid-cols-2 md:gap-6">
                     <div class="relative z-0 w-full mb-6 group">
-                        <input type="text" name="name" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#00dc82] focus:outline-none focus:ring-0 focus:border-[#00dc82] peer" placeholder=" " required />
-                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-40020 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#00dc82] peer-focus:dark:text-[#00dc82] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+                        <input type="text" name="name" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#1cb76f] focus:outline-none focus:ring-0 focus:border-[#1cb76f] peer" placeholder=" " required />
+                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-40020 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#1cb76f] peer-focus:dark:text-[#1cb76f] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
                     </div>
                     <div class="relative z-0 w-full mb-6 group">
-                        <input type="email" name="email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#00dc82] focus:outline-none focus:ring-0 focus:border-[#00dc82] peer" placeholder=" " required />
-                        <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#00dc82] peer-focus:dark:text-[#00dc82] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
+                        <input type="email" name="email" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#1cb76f] focus:outline-none focus:ring-0 focus:border-[#1cb76f] peer" placeholder=" " required />
+                        <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#1cb76f] peer-focus:dark:text-[#1cb76f] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
                     </div>
                 </div>
                 <div class="relative z-0 w-full mb-6 group">
-                    <textarea type="text" name="message" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#00dc82] focus:outline-none focus:ring-0 focus:border-[#00dc82] peer" placeholder=" " required />
-                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#00dc82] peer-focus:dark:text-[#00dc82] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                    <textarea type="text" name="message" class="block py-2.5 px-0 w-full text-sm text-slate-200 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[#1cb76f] focus:outline-none focus:ring-0 focus:border-[#1cb76f] peer" placeholder=" " required />
+                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#1cb76f] peer-focus:dark:text-[#1cb76f] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
                 </div>
                 
-                <button type="submit" class="flex flex-wrap mt-10 text-[#00dc82] bg-slate-700 rounded-md font-medium text-sm px-5 py-2.5 text-justify hovered-btn">Shoot
-                    <PaperAirplaneIcon class="absolute-icon h-4 w-5 text-[#00dc82] mt-0.5 ml-1 transform duration-300" />
+                <button type="submit" class="flex flex-wrap mt-10 text-[#1cb76f] bg-[#1c1c32] rounded-full font-medium text-sm px-5 py-2.5 text-justify hovered-btn">Shoot
+                    <PaperAirplaneIcon class="absolute-icon h-4 w-5 text-[#1cb76f] mt-0.5 ml-1 transform duration-300" />
                 </button>
             </form>
 
@@ -314,14 +314,14 @@ onMounted(() => {
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:pb-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-52 lg:pt-20">
-            <h1 class="text-5xl font-extrabold text-white mt-1 font-700"><span class="text-[#00dc82]">j</span>mcode.</h1>
+            <h1 class="text-5xl font-extrabold text-white mt-1 font-700"><span class="text-[#1cb76f]">j</span>mcode.</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2"><span class="font-400">Front-End Developer</span></h1>
                 <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
             <div class="mt-7 max-sm:mb-20 font-400 max-sm:hidden">
-                <button class="text-[#000] py-2 px-6 rounded-full inline-flex items-center bg-[#00dc82] hover:bg-[#06c879] transform duration-300 text-sm" @click.prevent="showContact">
+                <button class="text-[#000] py-2 px-6 rounded-full inline-flex items-center bg-[#1cb76f] hover:bg-[#06c879] transform duration-300 text-sm" @click.prevent="showContact">
                     <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-5 text-[#000] mr-2"/>
                     <span>Message</span>
                 </button>
@@ -358,7 +358,7 @@ onMounted(() => {
                 <section id="section1" class="text-slate-400 text-md section">
                     <div>
                         <p>When I was still a college student, I developed an interest in web designing.</p>
-                        <p class="mt-7">Currently, I work at <a href="https://www.linkedin.com/company/quickstrike-mnfg-phils-inc/?originalSubdomain=ph" target="_blank" class="text-slate-200 hover:text-[#00dc82] font-400">Qstrike Innovation Phils OPC</a>, where I have been employed for just over 4 years. My responsibilities include maintaining existing projects by implementing new features and fixing bugs. I preferred work from home setup and enjoy the non-strict environment, as it allows me to think clearly and focus on my work.</p>
+                        <p class="mt-7">Currently, I work at <a href="https://www.linkedin.com/company/quickstrike-mnfg-phils-inc/?originalSubdomain=ph" target="_blank" class="text-slate-200 hover:text-[#1cb76f] font-400">Qstrike Innovation Phils OPC</a>, where I have been employed for just over 4 years. My responsibilities include maintaining existing projects by implementing new features and fixing bugs. I preferred work from home setup and enjoy the non-strict environment, as it allows me to think clearly and focus on my work.</p>
                         <p class="mt-7">When I'm not in front of the computer, especially after finishing work, I either go to the gym or biking to exercise. This is essentail for me, particularly for us programmers who spend most of our time in front of the computer and sitting down.</p>
                     </div>
                 </section>
@@ -371,25 +371,25 @@ onMounted(() => {
                         </div>
                         <div class="lg:ml-40 lg:mt-[-20px]">
                             <a href="https://www.prolook.com/" target="_blank" class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">
                                     Prolook Sports
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-slate-600 font-400 text-sm">Front-End Developer</p>
-                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">HTML</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">CSS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Underscore</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Lodash</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Pinia</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">NPM</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">GIT</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                            <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring the implementation of reusable components and the use of <a class="text-slate-200 hover:text-[#1cb76f] font-400" href="https://pinia.vuejs.org/" target="_blank">pinia</a> for state management. Also, ensuring that the code is maintainable and readable.</p>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">HTML</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">CSS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Underscore</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Lodash</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Pinia</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">NPM</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">GIT</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
                             </ul>
                         </div>
                     </div>
@@ -399,19 +399,19 @@ onMounted(() => {
                         </div>
                         <div class="lg:ml-40 lg:mt-[-20px]">
                             <a href="https://wordtorque.graxia.dev" target="_blank" class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">
                                     Wordtorque
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-slate-600 font-400 text-sm">Part Time - Front-End Developer</p>
                             <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and enhancing the user interface. Ensuring the system is mobile-responsive and easy to navigate.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">HTML</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">CSS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">GIT</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Bootstrap</li>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">HTML</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">CSS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">GIT</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Bootstrap</li>
                             </ul>
                         </div>
                     </div>
@@ -428,13 +428,13 @@ onMounted(() => {
                             </a>
                             <p class="text-slate-600 font-400 text-sm">Front-End Developer</p>
                             <p class="mt-3 text-sm text-slate-400">Responsible for maintaining existing projects, fixing bugs, and implementing new features. Ensuring that the system is responsive and easy to navigate on mobile.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">HTML</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">CSS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Fabric JS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">GIT</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Bootstrap</li>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">HTML</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">CSS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Fabric JS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">GIT</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Bootstrap</li>
                             </ul>
                         </div>
                     </div>
@@ -451,15 +451,15 @@ onMounted(() => {
                             </a>
                             <p class="text-slate-600 font-400 text-sm">Internship Trainee - Front-End Developer</p>
                             <p class="mt-3 text-sm text-slate-400">Responsible for project development, bug fixing, and feature implementation. Ensuring the website is informative, responsive, and easy to navigate on mobile.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Wix (CMS)</li>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Wix (CMS)</li>
                             </ul>
                         </div>
                     </div>
                     <div class="mt-12">
                         <a href="/jmc-resume.pdf" target="_blank" class="hovered-btn font-400">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">View full resume
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">View full resume
                                 <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1 absolute-icon transform duration-300" />
                             </p>
                         </a>
@@ -474,16 +474,16 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://customizer.prolook.com/index" target="_blank" class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Prolook Customizer 
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">Prolook Customizer 
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300"/>
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
                             </ul>
                         </div>
                     </div>
@@ -493,16 +493,16 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://prolookteam.com/" target="_blank" class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Dick's & Sporting Goods Customizer
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">Dick's & Sporting Goods Customizer
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
                             </ul>
                         </div>
                     </div>
@@ -512,16 +512,16 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://www.pguniforms.com" target="_blank" class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Perfect Game Customizer
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">Perfect Game Customizer
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
                             </ul>
                         </div>
                     </div>
@@ -531,22 +531,22 @@ onMounted(() => {
                         </div>
                         <div class="ml-4 max-sm:ml-0">
                             <a href="https://www.alliteamuniforms.com" target="_blank" class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">Alli Customizer
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">Alli Customizer
                                     <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" />
                                 </p>
                             </a>
                             <p class="text-sm mt-2 text-slate-400">Web app for customizing sports uniforms such as baseball apparel, accessories, and more. It allows you to add features like numbers, text, patterns, piping, custom logos, and more. You can also place orders for your customized uniforms.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">JavaScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Vue JS</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">TypeScript</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Uikit</li>
                             </ul>
                         </div>
                     </div>
                     <div class="mt-10">
                         <a href="#" @click.prevent="showProjects" class="hovered-btn font-400">
-                            <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">View full project archive
+                            <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">View full project archive
                                 <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1 absolute-icon transform duration-300" />
                             </p>
                         </a>
@@ -560,37 +560,37 @@ onMounted(() => {
                         </div>
                         <div class="lg:ml-40 lg:mt-[-20px]">
                             <div class="hovered-btn font-400">
-                                <p class="text-slate-200 flex flex-wrap hover:text-[#00dc82]">
+                                <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">
                                     UI/UX Figma Design
                                     <!-- <ArrowUpRightIcon class="h-3 w-5 text-slate-200 mt-2 ml-1 absolute-icon transform duration-300" /> -->
                                 </p>
                             </div>
                             <p class="text-slate-600 text-sm font-400">MSCONNECT PH</p>
                             <p class="mt-3 text-sm text-slate-400">UI & UX Design using FIGMA from Scratch to Project Handover, a hands-on workshop for beginners by a Graphic Design Specialist, Google Digital Marketing Certified, Creative Writer, and a Professional Information Technology Instructor.</p>
-                            <ul class="flex flex-wrap text-[#00dc82] text-xs mt-2 font-400">
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">User Centered Design</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Low Fidelity</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Mid Fidelity</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">High Fidelity</li>
-                                <li class="bg-slate-700 p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">FigJam Flow</li>
+                            <ul class="flex flex-wrap text-[#1cb76f] text-xs mt-2 font-400">
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">User Centered Design</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Low Fidelity</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">Mid Fidelity</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">High Fidelity</li>
+                                <li class="bg-[#1c1c32] p-1.5 pl-3 pr-3 rounded-full mr-2 mt-2">FigJam Flow</li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section class="mt-20 max-sm:mb-10 max-md:mb-10 lg:pb-20">
                     <div class="text-slate-500 text-sm max-sm:text-xs">
-                        <p>Coded in<a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font and <a class="text-slate-200 hover:text-[#00dc82] font-400" href="https://heroicons.com/" target="_blank">Heroicons</a> for icons.</p>
+                        <p>Coded in<a class="text-slate-200 hover:text-[#1cb76f] font-400" href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code.</a> Built with <a class="text-slate-200 hover:text-[#1cb76f] font-400" href="https://vuejs.org/" target="_blank">Vue.js</a> and <a class="text-slate-200 hover:text-[#1cb76f] font-400" href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed in <a class="text-slate-200 hover:text-[#1cb76f] font-400" href="https://www.netlify.com/" target="_blank">Netlify.</a> All text is set to <a class="text-slate-200 hover:text-[#1cb76f] font-400" href="https://fonts.google.com/specimen/Inter?query=inter" target="_blank">Inter</a> font and <a class="text-slate-200 hover:text-[#1cb76f] font-400" href="https://heroicons.com/" target="_blank">Heroicons</a> for icons.</p>
                     </div>
                 </section>
             </div>
         </div>
     </div>
     <div class="fixed flex-col top-[50%] max-sm:top-[80%] max-sm:right-6 lg:left-0 lg:hidden">
-        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg mb-2" @click.prevent="showContact">
-            <ChatBubbleBottomCenterTextIcon class="max-sm:h-8 h-5 w-8 text-[#00dc82] mt-2 mb-2 ml-2" />
+        <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#1a1a34] rounded-r-lg mb-2" @click.prevent="showContact">
+            <ChatBubbleBottomCenterTextIcon class="max-sm:h-8 h-5 w-8 text-[#1cb76f] mt-2 mb-2 ml-2" />
         </a>
-        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-slate-700 rounded-r-lg">
-            <DocumentTextIcon class="max-sm:h-8 h-5 w-8 text-[#00dc82] mt-2 mb-2 ml-2" />
+        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#1a1a34] rounded-r-lg">
+            <DocumentTextIcon class="max-sm:h-8 h-5 w-8 text-[#1cb76f] mt-2 mb-2 ml-2" />
         </a>
     </div>
 </template>
@@ -601,7 +601,7 @@ onMounted(() => {
         left: 0;
         width: 100%;
         height: 100%;
-        background: #10151d;
+        background: #1b1b3b;
         display: flex;
         justify-content: center;
         align-items: center;
