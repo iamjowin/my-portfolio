@@ -73,7 +73,7 @@ onMounted(() => {
 </script>
 <template>
     <!-- Projects container -->
-    <div class="projects-container bg-[#1b1b3b] hidden">
+    <div class="projects-container bg-[#13132a] hidden">
         <button @click="hideProjects" class="contact-close-btn">
             <XMarkIcon class="h-8 w-7 text-[#1cb76f] mt-1 mr-1" />
         </button>
@@ -275,7 +275,7 @@ onMounted(() => {
     </div>
 
     <!-- Contact container -->
-    <div class="contact-container bg-[#1b1b3b] hidden">
+    <div class="contact-container bg-[#13132a] hidden">
         <button @click="hideContact" class="contact-close-btn">
             <XMarkIcon class="h-8 w-7 text-[#1cb76f] mt-1 mr-1" />
         </button>
@@ -321,11 +321,11 @@ onMounted(() => {
             </div>
             <SocialNav />
             <div class="mt-7 max-sm:mb-20 font-400 max-sm:hidden">
-                <button class="text-[#000] py-2 px-6 rounded-full inline-flex items-center bg-[#1cb76f] hover:bg-[#06c879] transform duration-300 text-sm" @click.prevent="showContact">
-                    <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-5 text-[#000] mr-2"/>
+                <button class="text-[#fff] py-2 px-6 rounded-full inline-flex items-center bg-[#1c1c32] hover:bg-[#0f1010]  transform duration-300 text-sm" @click.prevent="showContact">
+                    <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-5 text-[#fff] mr-2"/>
                     <span>Message</span>
                 </button>
-                <a href="/jmc-resume.pdf" target="_blank" class="border border-slate-800 text-[#fff] py-2 px-6 rounded-full inline-flex items-center ml-2 hover:bg-[#0f1010] transform duration-300 text-sm">
+                <a href="/jmc-resume.pdf" target="_blank" class="text-[#fff] py-2 px-6 rounded-full inline-flex items-center ml-2 bg-[#1c1c32] hover:bg-[#0f1010] transform duration-300 text-sm">
                     <DocumentTextIcon class="max-sm:h-5 h-5 text-[#fff] mr-2"/>
                     <span>Resume</span>
                 </a>
