@@ -317,7 +317,7 @@ onMounted(() => {
             <h1 class="text-5xl font-extrabold text-white mt-1 font-700"><span class="text-[#1cb76f]">j</span>mcode.</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2"><span class="font-400">Front-End Developer</span></h1>
-                <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
+                <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400 subheading"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
             </div>
             <SocialNav />
             <div class="mt-7 max-sm:mb-20 font-400 max-sm:hidden">
@@ -356,7 +356,7 @@ onMounted(() => {
                 <section id="section0" class="section"></section>
                 <h1 class="text-xl font-bold mb-4 text-slate-700 max-sm:text-slate-200 max-md:text-slate-400 about-heading lg:hidden">ABOUT</h1>
                 <section id="section1" class="text-slate-400 text-md section">
-                    <div>
+                    <div class="subheading">
                         <p>When I was still a college student, I developed an interest in web designing.</p>
                         <p class="mt-7">Currently, I work at <a href="https://www.linkedin.com/company/quickstrike-mnfg-phils-inc/?originalSubdomain=ph" target="_blank" class="text-slate-200 hover:text-[#1cb76f] font-400">Qstrike Innovation Phils OPC</a>, where I have been employed for just over 4 years. My responsibilities include maintaining existing projects by implementing new features and fixing bugs. I preferred work from home setup and enjoy the non-strict environment, as it allows me to think clearly and focus on my work.</p>
                         <p class="mt-7">When I'm not in front of the computer, especially after finishing work, I either go to the gym or biking to exercise. This is essentail for me, particularly for us programmers who spend most of our time in front of the computer and sitting down.</p>
@@ -595,6 +595,10 @@ onMounted(() => {
     </div>
 </template>
 <style>
+    .subheading {
+        font-size: 15px;
+    }
+
     .loading-container {
         position: fixed;
         top: 0;

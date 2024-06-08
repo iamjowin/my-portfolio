@@ -7,13 +7,13 @@ window.addEventListener("load", () => {
     if (!isLaptopOrDesktop()) return;
 
     const spotlight = document.querySelector('.spotlight');
-    let spotlightSize = 'transparent 10%, rgba(0, 0, 0, 0.3) 40%';
+    let spotlightSize = 'transparent 10%, rgba(0, 0, 0, 0.3) 35%';
 
     window.addEventListener('mousemove', e => updateSpotlight(e));
-    window.addEventListener('mousedown', e => {
-        spotlightSize = 'transparent 10%, rgba(0, 0, 0, 0.3) 35%';
-        updateSpotlight(e);
-    });
+
+    spotlightSize = 'transparent 10%, rgba(0, 0, 0, 0.3) 35%';
+    updateSpotlight(e);
+    
 
     window.addEventListener('mouseup', e => {
         spotlightSize = 'transparent 20%, rgba(0, 0, 0, 0.3) 40%';
