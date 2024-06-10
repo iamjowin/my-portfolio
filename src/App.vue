@@ -325,7 +325,7 @@ onMounted(() => {
                     <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-5 text-[#fff] mr-2"/>
                     <span>Message</span>
                 </button>
-                <a href="/jmc-resume.pdf" target="_blank" class="text-[#fff] py-2 px-6 rounded-full inline-flex items-center ml-2 bg-[#1c1c32] hover:bg-[#0f1010] transform duration-300 text-sm">
+                <a href="/cueto-jowin-cv.pdf" target="_blank" class="text-[#fff] py-2 px-6 rounded-full inline-flex items-center ml-2 bg-[#1c1c32] hover:bg-[#0f1010] transform duration-300 text-sm">
                     <DocumentTextIcon class="max-sm:h-5 h-5 text-[#fff] mr-2"/>
                     <span>Resume</span>
                 </a>
