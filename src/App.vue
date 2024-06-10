@@ -358,7 +358,7 @@ onMounted(() => {
                 <section id="section1" class="text-slate-400 text-md section">
                     <div class="subheading">
                         <p>When I was still a college student, I developed an interest in web designing.</p>
-                        <p class="mt-7">Currently, I work at <a href="https://www.linkedin.com/company/quickstrike-mnfg-phils-inc/?originalSubdomain=ph" target="_blank" class="text-slate-200 hover:text-[#1cb76f] font-400">Qstrike Innovation Phils OPC</a>, where I have been employed for just over 4 years. My responsibilities include maintaining existing projects by implementing new features and fixing bugs. I preferred work from home setup and enjoy the non-strict environment, as it allows me to think clearly and focus on my work.</p>
+                        <p class="mt-7">Currently, I work at <a href="https://www.linkedin.com/company/quickstrike-mnfg-phils-inc/?originalSubdomain=ph" target="_blank" class="text-slate-200 hover:text-[#1cb76f] font-400">Qstrike Innovation Phils OPC</a>, where I have been employed for just over 5 years. My responsibilities include maintaining existing projects by implementing new features and fixing bugs. I preferred work from home setup and enjoy the non-strict environment, as it allows me to think clearly and focus on my work.</p>
                         <p class="mt-7">When I'm not in front of the computer, especially after finishing work, I either go to the gym or biking to exercise. This is essentail for me, particularly for us programmers who spend most of our time in front of the computer and sitting down.</p>
                     </div>
                 </section>
