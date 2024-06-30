@@ -458,7 +458,7 @@ onMounted(() => {
                         </div>
                     </div>
                     <div class="mt-12">
-                        <a href="/jmc-resume.pdf" target="_blank" class="hovered-btn font-400">
+                        <a href="/cueto-jowin-cv.pdf" target="_blank" class="hovered-btn font-400">
                             <p class="text-slate-200 flex flex-wrap hover:text-[#1cb76f]">View full resume
                                 <ArrowRightIcon class="h-4 w-5 text-slate-200 mt-1 ml-1 absolute-icon transform duration-300" />
                             </p>
@@ -589,7 +589,7 @@ onMounted(() => {
         <a href="#" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#1a1a34] rounded-r-lg mb-2" @click.prevent="showContact">
             <ChatBubbleBottomCenterTextIcon class="max-sm:h-8 h-5 w-8 text-[#1cb76f] mt-2 mb-2 ml-2" />
         </a>
-        <a href="/jmc-resume.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#1a1a34] rounded-r-lg">
+        <a href="/cueto-jowin-cv.pdf" class="lg:w-[40px] h-[40px] max-sm:h-[50px] max-sm:w-[50px] lg:hover:w-[45px] lg:hover:pl-2 pr-1 max-sm:rounded-full flex justify-between items-center lg:mr-[-130px] duration-300 bg-[#1a1a34] rounded-r-lg">
             <DocumentTextIcon class="max-sm:h-8 h-5 w-8 text-[#1cb76f] mt-2 mb-2 ml-2" />
         </a>
     </div>
