@@ -11,7 +11,8 @@ import {
     PaperAirplaneIcon, 
     ArchiveBoxIcon,
     DocumentTextIcon,
-    ChatBubbleBottomCenterTextIcon 
+    ChatBubbleBottomCenterTextIcon, 
+FaceSmileIcon
 } from '@heroicons/vue/24/outline'
 import { onMounted } from 'vue'
 
@@ -314,7 +315,7 @@ onMounted(() => {
     <div class="lg:flex h-screen main-column-div">
         <!-- Left Column -->
         <div class="lg:w-1/2 lg:h-full flex flex-col left-column-div max-sm:pb-0 max-sm:p-10 sm:p-10 md:p-10 lg:pl-52 lg:pt-20">
-            <h1 class="text-5xl font-extrabold text-white mt-1 font-700"><span class="text-[#1cb76f]">j</span>mcode.</h1>
+            <h1 class="text-5xl font-extrabold text-white mt-1 font-700"><span class="text-[#1cb76f]">jmc</span>ode.</h1>
             <div>
                 <h1 class="text-xl text-slate-200 mt-2"><span class="font-400">Front-End Developer</span></h1>
                 <p class="w-full lg:w-3/4 mt-4 text-md text-slate-400 subheading"> I design and implement the visual elements, interactivity, and functionality of the website.</p>
@@ -322,8 +323,8 @@ onMounted(() => {
             <SocialNav />
             <div class="mt-7 max-sm:mb-20 font-400 max-sm:hidden">
                 <button class="text-[#fff] py-2 px-6 rounded-full inline-flex items-center bg-[#1c1c32] hover:bg-[#0f1010]  transform duration-300 text-sm" @click.prevent="showContact">
-                    <ChatBubbleBottomCenterTextIcon class="max-sm:h- h-5 text-[#fff] mr-2"/>
-                    <span>Message</span>
+                    <FaceSmileIcon class="max-sm:h- h-5 text-[#fff] mr-2"/>
+                    <span>Say Hello</span>
                 </button>
                 <a href="/cueto-jowin-cv.pdf" target="_blank" class="text-[#fff] py-2 px-6 rounded-full inline-flex items-center ml-2 bg-[#1c1c32] hover:bg-[#0f1010] transform duration-300 text-sm">
                     <DocumentTextIcon class="max-sm:h-5 h-5 text-[#fff] mr-2"/>
@@ -345,7 +346,7 @@ onMounted(() => {
                 </a>
                 <a href="#section4" id="link4" class="text-slate-500 text-xs font-700 flex flex-wrap mt-6 nav-link hover:text-slate-200">
                     <div id="link-line-4" class="line mt-2 mr-4"></div>
-                    SEMINARS
+                    OTHERS
                 </a>
             </nav>
         </div>
